@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AMRAd.h</key>
 		<data>
-		E1c8IbflDcTLR7elCebYObpQWDg=
+		mdNF3MsSLdIBdQMTOweAWDUdob4=
 		</data>
 		<key>Headers/AMRBanner.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AMRBannerDelegate.h</key>
 		<data>
-		2jvlYMG/1UEjC3sZ2okb2MN1UQw=
+		smTdfIkIZKUY/2rNrZsCfZa85xY=
 		</data>
 		<key>Headers/AMRBannerView.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/AMRTypes.h</key>
 		<data>
-		tcXNzVZ69ga5486orPbzUVIZZsM=
+		V0q2vMZ/2IplCdHx4jG6H0m6FTk=
 		</data>
 		<key>Headers/AMRUserExperiment.h</key>
 		<data>
@@ -83,11 +83,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E1c8IbflDcTLR7elCebYObpQWDg=
+			mdNF3MsSLdIBdQMTOweAWDUdob4=
 			</data>
 			<key>hash2</key>
 			<data>
-			0lLYBfyTxO1XhG6MbmckYms5Qj5pRryS2XzL8wafThw=
+			GEx+Mx9ZtgxABkdhGmLl+OkMcVh9vqLrtiZZxWk2E98=
 			</data>
 		</dict>
 		<key>Headers/AMRBanner.h</key>
@@ -105,11 +105,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2jvlYMG/1UEjC3sZ2okb2MN1UQw=
+			smTdfIkIZKUY/2rNrZsCfZa85xY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yy/qhcLzMtqRM80u/04BKFAJtG6jeN78KKEy1XCKIvQ=
+			1XbwVPRNfeihNpQ8ONI5X4WDwlTqnHTxofhQd2d6Mww=
 			</data>
 		</dict>
 		<key>Headers/AMRBannerView.h</key>
@@ -237,11 +237,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tcXNzVZ69ga5486orPbzUVIZZsM=
+			V0q2vMZ/2IplCdHx4jG6H0m6FTk=
 			</data>
 			<key>hash2</key>
 			<data>
-			63MXFzF6KBbDP70j//FtcrTvKhOymC6CTNgGqUSKcw8=
+			8Dy2eCOCiIvgyd5pH2/zC9JmpWxBIn5eR9ovPZ7Yb0o=
 			</data>
 		</dict>
 		<key>Headers/AMRUserExperiment.h</key>

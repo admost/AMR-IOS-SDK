@@ -245,7 +245,10 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     AMRNetworkTypeCommit,
     
     /// ADIPOLO
-    AMRNetworkTypeAdipolo
+    AMRNetworkTypeAdipolo,
+
+    /// MADVERTISE
+    AMRNetworkTypeMadvertise
 };
 
 typedef NS_ENUM(NSInteger, AMRReachabilityNetworkStatus){
