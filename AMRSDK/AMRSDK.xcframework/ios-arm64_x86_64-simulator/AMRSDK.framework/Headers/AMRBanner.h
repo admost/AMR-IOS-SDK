@@ -54,6 +54,15 @@
  * Start asynchronous banner loading request. Delegate must be set before loading a banner ad.
  * Example usage:
  * @code
+ * [banner refreshBanner];
+ * @endcode
+ */
+- (void)refreshBanner;
+
+/**
+ * Start asynchronous banner loading request. Delegate must be set before loading a banner ad.
+ * Example usage:
+ * @code
  * [banner loadBannerWithTag:@"MY_TAG"];
  * @endcode
  * @param tag Distinction value for ads that used in multiple purposes.

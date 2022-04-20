@@ -248,7 +248,10 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     AMRNetworkTypeAdipolo,
 
     /// MADVERTISE
-    AMRNetworkTypeMadvertise
+    AMRNetworkTypeMadvertise,
+
+    /// VRTCAL
+    AMRNetworkTypeVrtcal
 };
 
 typedef NS_ENUM(NSInteger, AMRReachabilityNetworkStatus){
