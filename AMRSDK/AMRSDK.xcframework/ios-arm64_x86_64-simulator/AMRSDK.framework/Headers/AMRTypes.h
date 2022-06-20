@@ -251,7 +251,10 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     AMRNetworkTypeMadvertise,
 
     /// VRTCAL
-    AMRNetworkTypeVrtcal
+    AMRNetworkTypeVrtcal,
+
+    /// TEADS
+    AMRNetworkTypeTeads
 };
 
 typedef NS_ENUM(NSInteger, AMRReachabilityNetworkStatus){
