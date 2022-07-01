@@ -16,7 +16,7 @@
 @property AMRNetworkType networkType;
 @property NSString *networkName;
 @property NSNumber *ecpm;
+@property NSString *tag;
 @property (readonly) NSNumber *revenue;
 @property (readonly) NSString *currency;
-@property (readonly) NSString *tag;
 @end
