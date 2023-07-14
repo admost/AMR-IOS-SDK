@@ -139,10 +139,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setUserChild:(BOOL)userChild;
 
 /**
- * useHttps is in closed beta and available invite only.
- * @param useHttps object to force sdk to make https requests.
+ * @deprecated This method is deprecated starting in version 1.5.36
+ * @note All requests use https.
  */
-+ (void)setUseHttps:(BOOL)useHttps;
++ (void)setUseHttps:(BOOL)useHttps __attribute__((deprecated));
 
 /**
  * Get user data in JSON format after AMRSDK initialization.
