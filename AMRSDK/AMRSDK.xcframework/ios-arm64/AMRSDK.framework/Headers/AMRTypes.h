@@ -91,6 +91,9 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     /// AVOCARROT
     AMRNetworkTypeAvocarrot,
 
+    /// BIGO
+    AMRNetworkTypeBigo,
+
     /// CHARTBOOST
     AMRNetworkTypeChartboost,
 

@@ -11,13 +11,11 @@
 
 @class AMRPlacement;
 
-@protocol AMRNativeAdBaseViewDelegate <NSObject>
-- (void)didDismissNativeInterstitial;
-@end
-
 extern NSString * const kAMRImageNameDefaultPrivacyIcon;
 
 extern NSString * const kAMRNativeAssetKeyTitle;
+extern NSString * const kAMRNativeAssetKeySubtitle;
+extern NSString * const kAMRNativeAssetKeyPrice;
 extern NSString * const kAMRNativeAssetKeyDescription;
 extern NSString * const kAMRNativeAssetKeyCallToAction;
 extern NSString * const kAMRNativeAssetKeyIconURL;
@@ -29,23 +27,27 @@ extern NSString * const kAMRNativeAssetKeyPrivacyImage;
 extern NSString * const kAMRNativeAssetKeyPrivacyImageName;
 extern NSString * const kAMRNativeAssetKeyPrivacyImageView;
 extern NSString * const kAMRNativeAssetKeyClickURL;
+extern NSString * const kAMRNativeAssetKeySponsored;
 
 @interface AMRNativeAdBaseView : UIView
 
 @property (nonatomic, weak) IBOutlet UILabel *LBLTitle;
+@property (nonatomic, weak) IBOutlet UILabel *LBLSubtitle;
+@property (nonatomic, weak) IBOutlet UILabel *LBLPrice;
 @property (nonatomic, weak) IBOutlet UILabel *LBLDescription;
 @property (nonatomic, weak) IBOutlet UILabel *LBLCallToAction;
+@property (weak, nonatomic) IBOutlet UILabel *LBLSponsored;
 @property (nonatomic, weak) IBOutlet UIImageView *IMGIcon;
 @property (nonatomic, weak) IBOutlet UIImageView *IMGCover;
-@property (nonatomic, weak) IBOutlet UIImageView *IMGCoverBG;
 @property (nonatomic, weak) IBOutlet UIImageView *IMGPrivacyIcon;
-@property (nonatomic, weak) IBOutlet UIButton *BTNClick;
 @property (nonatomic, weak) IBOutlet UIButton *BTNClickFB;
-@property (nonatomic, weak) IBOutlet UIView *trackingView;
-@property (nonatomic, strong) NSURL *iconURL;
 @property (nonatomic, assign) AMRBannerSize bannerSize;
 @property (nonatomic, strong) AMRPlacement *placement;
-@property (nonatomic, weak) id<AMRNativeAdBaseViewDelegate> delegate;
+
+//Will be depreciated soon.
+@property (nonatomic, weak) IBOutlet UIView *trackingView __deprecated;
+@property (nonatomic, weak) IBOutlet UIButton *BTNClick __deprecated;
+@property (nonatomic, weak) IBOutlet UIImageView *IMGCoverBG __deprecated;
 
 + (instancetype)baseViewWithPlacement:(AMRPlacement *)placement;
 - (void)decorateWithDictionary:(NSDictionary *)dictionary;
