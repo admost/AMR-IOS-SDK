@@ -18,11 +18,15 @@
 		</data>
 		<key>Headers/AMRBannerView.h</key>
 		<data>
-		HeRhto5HHRZtEcIr7gF+4jZM6JE=
+		p2N93L/s3nCC+f1aCMI7icJAW7Y=
 		</data>
 		<key>Headers/AMRError.h</key>
 		<data>
 		qm6I1ucmDKFuv9a2Kuv0zvaM02Y=
+		</data>
+		<key>Headers/AMRExternalRevenue.h</key>
+		<data>
+		ANutHaPlXh9qaCG/+lrWFkCmuxs=
 		</data>
 		<key>Headers/AMRInterstitial.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Headers/AMRNativeAdBaseView.h</key>
 		<data>
-		2iacz2PZErREl6a3j1xm3ng0M/c=
+		3EprIoALpU4yOO4XT7boBFXBGiM=
 		</data>
 		<key>Headers/AMROfferWall.h</key>
 		<data>
@@ -58,11 +62,11 @@
 		</data>
 		<key>Headers/AMRSDK.h</key>
 		<data>
-		9o3BQQDE05bMvvlnVBD96K1gIsE=
+		a1yAEufDpRwn1RIvT7RXbjhPQsI=
 		</data>
 		<key>Headers/AMRTypes.h</key>
 		<data>
-		uUV/cSugx8w+9Ka6qtj4Tmm6M3I=
+		UfFDg4BMRjB3DMwooP3HtXt+zCM=
 		</data>
 		<key>Headers/AMRUserExperiment.h</key>
 		<data>
@@ -70,11 +74,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		084tjsQtQ9UWg9ynmo/uDu+bcHg=
+		xap2EUNEl6o4q7T01o8npv+ot8M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		mUIf1FEmODePqZ5hlUxDb0w/P2k=
+		+8ZkODY+sqo12LY44fs4SRpacOU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -116,11 +120,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HeRhto5HHRZtEcIr7gF+4jZM6JE=
+			p2N93L/s3nCC+f1aCMI7icJAW7Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			IJQWCtav0i3idPo9QzfNQ/CPHlEE4+qjMymqYlqt7L8=
+			BVmiFyUlA4SjZ6ZOSFlO0Fu1FF1QbG82qhGndYvYpFw=
 			</data>
 		</dict>
 		<key>Headers/AMRError.h</key>
@@ -132,6 +136,17 @@
 			<key>hash2</key>
 			<data>
 			hRdYe3UvV++Ni0rNAXOUGcsH0TFvHiBuc03X12i85bs=
+			</data>
+		</dict>
+		<key>Headers/AMRExternalRevenue.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ANutHaPlXh9qaCG/+lrWFkCmuxs=
+			</data>
+			<key>hash2</key>
+			<data>
+			wmnKBy25gf2dqsed0/+V6lGIyWurPW7LWeDQWkVys2E=
 			</data>
 		</dict>
 		<key>Headers/AMRInterstitial.h</key>
@@ -160,11 +175,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2iacz2PZErREl6a3j1xm3ng0M/c=
+			3EprIoALpU4yOO4XT7boBFXBGiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZIizQaQLSeiPUC4gfMigDwUhtHJDtssBSD6pOGO0ZY0=
+			tCTK2PZWq/vutxdKFNyJ4tVcfTLUaU75bzdoVl6JGdY=
 			</data>
 		</dict>
 		<key>Headers/AMROfferWall.h</key>
@@ -226,22 +241,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9o3BQQDE05bMvvlnVBD96K1gIsE=
+			a1yAEufDpRwn1RIvT7RXbjhPQsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			yl/rzNVDVWepdhF4vFzudJceyb7gdEMxzmgaCa19/ew=
+			/NcN2ZjdYl5+bSTZP3CrEY1027jFBbBXVljbUvkvhwQ=
 			</data>
 		</dict>
 		<key>Headers/AMRTypes.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uUV/cSugx8w+9Ka6qtj4Tmm6M3I=
+			UfFDg4BMRjB3DMwooP3HtXt+zCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			/pIqn5UQmQUt60z3iyba+OzVDSAYY3mBSdACTbI2uqM=
+			jR+2mYJxS+jhRmujZQoA19aeTKt+mev5/ZZOU3dAJLg=
 			</data>
 		</dict>
 		<key>Headers/AMRUserExperiment.h</key>
@@ -259,11 +274,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mUIf1FEmODePqZ5hlUxDb0w/P2k=
+			+8ZkODY+sqo12LY44fs4SRpacOU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wbTXVrAT2n0QTDt+obiUZdv23v4H/gVWLmCdvP7oGYw=
+			sGkXXGk9d6TwAjMFdLrR/SPshY1DpsIvLBT445Mfs3U=
 			</data>
 		</dict>
 	</dict>

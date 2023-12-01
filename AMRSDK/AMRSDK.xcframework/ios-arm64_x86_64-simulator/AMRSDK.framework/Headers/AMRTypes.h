@@ -58,11 +58,17 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     /// ADFALCON
     AMRNetworkTypeAdFalcon,
 
+    /// ADMATIC
+    AMRNetworkTypeAdmatic,
+    
     /// ADMOB
     AMRNetworkTypeAdMob,
 
     /// ADMOST
     AMRNetworkTypeAdMost,
+    
+    /// ADSERVER
+    AMRNetworkTypeAdServer,
 
     /// ADTIMING
     AMRNetworkTypeAdtiming,
@@ -84,6 +90,9 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     
     /// AVOCARROT
     AMRNetworkTypeAvocarrot,
+
+    /// BIGO
+    AMRNetworkTypeBigo,
 
     /// CHARTBOOST
     AMRNetworkTypeChartboost,
@@ -160,6 +169,9 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     /// PREMIUM
     AMRNetworkTypePremium,
     
+    /// PUBMATIC
+    AMRNetworkTypePubMatic,
+    
     /// PUBNATIVE
     AMRNetworkTypePubNative,
 
@@ -195,7 +207,7 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
 
     /// APPSAMURAI
     AMRNetworkTypeAppsamurai,
-
+    
     /// MINTEGRAL
     AMRNetworkTypeMintegral,
 
@@ -254,7 +266,28 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     AMRNetworkTypeVrtcal,
 
     /// TEADS
-    AMRNetworkTypeTeads
+    AMRNetworkTypeTeads,
+    
+    /// MAKROO
+    AMRNetworkTypeMakroo,
+    
+    /// APPBRODA
+    AMRNetworkTypeAppbroda,
+    
+    /// ADDAPPTR
+    AMRNetworkTypeAddapptr,
+    
+    /// POTENSUS
+    AMRNetworkTypePotensus,
+    
+    /// ADOPS
+    AMRNetworkTypeAdops,
+    
+    /// PREMIUMADS
+    AMRNetworkTypePremiumAds,
+    
+    /// YABBI
+    AMRNetworkTypeYabbi
 };
 
 typedef NS_ENUM(NSInteger, AMRReachabilityNetworkStatus){

@@ -21,6 +21,7 @@
 #import "AMRNativeAdBaseView.h"
 #import "AMRUserExperiment.h"
 #import "AMRRemoteConfigValue.h"
+#import "AMRExternalRevenue.h"
 
 typedef void(^AMRInitCompletionHandler)(AMRError *_Nullable error);
 
@@ -138,10 +139,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setUserChild:(BOOL)userChild;
 
 /**
- * useHttps is in closed beta and available invite only.
- * @param useHttps object to force sdk to make https requests.
+ * @deprecated This method is deprecated starting in version 1.5.36
+ * @note All requests use https.
  */
-+ (void)setUseHttps:(BOOL)useHttps;
++ (void)setUseHttps:(BOOL)useHttps __attribute__((deprecated));
 
 /**
  * Get user data in JSON format after AMRSDK initialization.
@@ -276,7 +277,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * You can optionally use fetchRemoteConfigWithCompletion method to fetch remote config from server.
  */
-+ (void)fetchRemoteConfigWithCompletion:(void(^)(AMRError *))completion;
++ (void)fetchRemoteConfigWithCompletion:(void(^)(AMRError * _Nullable))completion;
+
+/**
+ * You can optionally use trackExternalAdRevenue method to send your external ad network revenues.
+ */
++ (void)trackExternalAdRevenue:(AMRExternalRevenue *)externalRevenue;
 
 /**
  * You can optionally use getConfigForKey method to get remote config value.
