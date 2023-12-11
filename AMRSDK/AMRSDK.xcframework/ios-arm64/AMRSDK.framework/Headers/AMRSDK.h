@@ -245,6 +245,14 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setUserConsent:(BOOL)consent;
 
 /**
+ * You can optionally use canRequestAds method if you use Admob UMP for obtaining consent.
+ * Set canRequestAds according to UMP tool response
+ * If canRequest is false then Admost won't initialize Admob adapter.
+ * @param canRequestAds permission of initialization Admob adapter.
+ */
++ (void)canRequestAds:(BOOL)canRequestAds;
+
+/**
  * We specified your responsibilities for obtaining consent from end-users of your apps in our updated Privacy Policy.
  * By updating GDPR or CCPA compatible SDK you agree that you’re responsible for inform the end users and take their consent.
  * Please note that the GDPR consent collection applies only to users located in the European Economic Area, the United Kingdom, and Switzerland.
