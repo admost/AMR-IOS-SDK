@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/AMRSDK.h</key>
 		<data>
-		a1yAEufDpRwn1RIvT7RXbjhPQsI=
+		TvZjYSnZgm2eUqP3GnIU/DiRSEk=
 		</data>
 		<key>Headers/AMRTypes.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xap2EUNEl6o4q7T01o8npv+ot8M=
+		5l1Ic7eirHhcpm+MMZhzueuEIRA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -241,11 +241,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a1yAEufDpRwn1RIvT7RXbjhPQsI=
+			TvZjYSnZgm2eUqP3GnIU/DiRSEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			/NcN2ZjdYl5+bSTZP3CrEY1027jFBbBXVljbUvkvhwQ=
+			7YvpoTtIcC8hsLzllaLyOW/E8Br92zao3zY6MC9jEi4=
 			</data>
 		</dict>
 		<key>Headers/AMRTypes.h</key>
