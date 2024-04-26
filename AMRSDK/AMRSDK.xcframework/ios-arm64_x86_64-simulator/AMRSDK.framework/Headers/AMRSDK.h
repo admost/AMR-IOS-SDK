@@ -102,6 +102,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// Get current SDK version
 + (NSString *)SDKVersion;
 
+
+/// Get Admost user id after AMRSDK initialization.
++ (NSString *)AdmostUserId;
+
 /**
  * You can optionally provide a unique user id for reporting purposes.
  * This provided user id will be associated with the AMR User in AMR Dashboard.
@@ -145,11 +149,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setUseHttps:(BOOL)useHttps __attribute__((deprecated));
 
 /**
- * Get user data in JSON format after AMRSDK initialization.
- */
-+ (NSString *)userData;
-
-/**
  * Get user experiment data after AMRSDK initialization.
  */
 + (AMRUserExperiment *)userExperiment;
@@ -187,7 +186,7 @@ NS_ASSUME_NONNULL_BEGIN
                amount:(double)amount;
 
 /**
- * Track in-app purchase is in closed beta and available invite only.
+ * Track in-app purchase.
  * @param identifier Transaction identifier of SKPaymentTransaction
  * @param currencyCode Currency code of transaction
  * @param amount Amount of transaction

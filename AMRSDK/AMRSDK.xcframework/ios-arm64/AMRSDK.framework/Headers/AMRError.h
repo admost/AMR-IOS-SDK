@@ -28,16 +28,7 @@ typedef NS_ENUM(NSInteger, AMRErrorCode) {
     
     /** Tag disabled for zone. */
     AMRErrorCodeTagDisabled = 1081,
-    
-    /** NoAd Ad policy found for zone. */
-    AMRErrorCodeNoAdPolicyFoundForZone = 1082,
-    
-    /** NoAd Ad policy found for tag. */
-    AMRErrorCodeNoAdPolicyFoundForTag = 1083,
-    
-    /** Frequency capping is filled for tag. */
-    AMRErrorCodeFrequencyCappingFilledForTag = 1084,
-    
+            
     /** Ad is not ready to show. */
     AMRErrorCodeAdNotReady = 1085,
     
