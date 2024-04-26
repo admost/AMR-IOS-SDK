@@ -84,7 +84,11 @@
 - (void)loadWithReceiveHandler:(void (^)(AMRBanner *banner))receive
                    failHandler:(void (^)(AMRError *error))fail;
 
-// start caching banner
-- (void)cacheBanner;
+
+/**
+ * @deprecated This method is deprecated starting in version 1.5.44
+ * @note Please use @code loadBanner @endcode instead.
+ */
+- (void)cacheBanner __attribute__((deprecated));
 
 @end

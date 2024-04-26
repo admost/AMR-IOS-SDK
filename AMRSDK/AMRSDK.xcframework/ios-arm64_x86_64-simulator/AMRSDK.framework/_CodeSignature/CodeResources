@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AMRBanner.h</key>
 		<data>
-		lOrQUIcF4GAEmHhagxzdxhZxHlQ=
+		PNevvPVZw3Tmvx5h6agDzOGWuVw=
 		</data>
 		<key>Headers/AMRBannerDelegate.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/AMRError.h</key>
 		<data>
-		qm6I1ucmDKFuv9a2Kuv0zvaM02Y=
+		ke1AM3aaMKGq37i/pO5s++FbDWs=
 		</data>
 		<key>Headers/AMRExternalRevenue.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/AMRSDK.h</key>
 		<data>
-		TvZjYSnZgm2eUqP3GnIU/DiRSEk=
+		sd8hzexHEi8lWQJVYoNCXFgCSQA=
 		</data>
 		<key>Headers/AMRTypes.h</key>
 		<data>
@@ -98,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lOrQUIcF4GAEmHhagxzdxhZxHlQ=
+			PNevvPVZw3Tmvx5h6agDzOGWuVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			vkGm8iOukfB34WjDHuZr8NPEOsJFm/LiaWuiTeDCvn0=
+			kmQnQdUnnnfIaxNdaUFF/kg0aE8YSR5D3/WiZ3M071c=
 			</data>
 		</dict>
 		<key>Headers/AMRBannerDelegate.h</key>
@@ -131,11 +131,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qm6I1ucmDKFuv9a2Kuv0zvaM02Y=
+			ke1AM3aaMKGq37i/pO5s++FbDWs=
 			</data>
 			<key>hash2</key>
 			<data>
-			hRdYe3UvV++Ni0rNAXOUGcsH0TFvHiBuc03X12i85bs=
+			lpuJVealGEUQpOYQlybotmB4a8UeP1jcyln8AQcmY8Y=
 			</data>
 		</dict>
 		<key>Headers/AMRExternalRevenue.h</key>
@@ -241,11 +241,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TvZjYSnZgm2eUqP3GnIU/DiRSEk=
+			sd8hzexHEi8lWQJVYoNCXFgCSQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7YvpoTtIcC8hsLzllaLyOW/E8Br92zao3zY6MC9jEi4=
+			hy2hrN+grf0GRAl3dUMJCnxARQgk3XlKT0OI9ckfkh8=
 			</data>
 		</dict>
 		<key>Headers/AMRTypes.h</key>
