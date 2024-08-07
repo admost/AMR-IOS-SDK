@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRSDK'
-  s.version          = '1.5.48'
+  s.version          = '1.5.49'
   s.requires_arc     = true
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 									Copyright 2016
@@ -33,11 +33,5 @@ Admost Mediation Router is a powerful mediation tool to maximize your ad revenue
   s.subspec 'Core' do |cr|
     cr.vendored_frameworks = 'AMRSDK/AMRSDK.xcframework'
     cr.resources = ['AMRSDK/AMRResources.bundle']
-  end
-
-  s.subspec 'AFA' do |af|
-    af.vendored_frameworks = 'AMRSDK/AMRSDK.xcframework', 'AFA/AMRAdapterAFA.xcframework'
-    af.resources = ['AMRSDK/AMRResources.bundle']
-    af.dependency 'AdmostFairAds', '~> 1.3.0'
   end
 end
