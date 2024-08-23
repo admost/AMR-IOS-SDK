@@ -10,6 +10,7 @@
 #import "AMRTypes.h"
 
 @interface AMRAd : NSObject
+@property NSString *adInfo;
 @property NSDictionary *networkData;
 @property NSString *zoneId;
 @property NSString *adSpaceId;
