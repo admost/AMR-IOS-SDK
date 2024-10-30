@@ -154,6 +154,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (AMRUserExperiment *)userExperiment;
 
 /**
+ * You can optionally pass third-party experiment values.
+ * @param experimentId value must match with "Third Party Experiment Id" from Admost Dashboard.
+ * @param groupName value must be defined on Admost Dashboard.
+ */
++ (void)setThirdPartyExperiment:(NSString *)experimentId forGroup:(NSString *)groupName;
+
+/**
  * Set virtual currenct delegate for virtual currency events.
  * Virtual currency delegate must be set before using offerwalls.
  * @param delegate An object conforms to <AMRVirtualCurrencyDelegate> protocol.
