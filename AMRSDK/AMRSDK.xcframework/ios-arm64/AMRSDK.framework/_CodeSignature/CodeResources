@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/AMRError.h</key>
 		<data>
-		ke1AM3aaMKGq37i/pO5s++FbDWs=
+		2NuVbbtzMK0uxiuJb0i3Sm2yQzE=
 		</data>
 		<key>Headers/AMRExternalRevenue.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/AMRSDK.h</key>
 		<data>
-		sd8hzexHEi8lWQJVYoNCXFgCSQA=
+		THFjHUJ5pZN14d4Y1otO/3KA05M=
 		</data>
 		<key>Headers/AMRTypes.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EeEUKpS/ttA5WjC7wYGDTVavnJo=
+		luzkCUll6UXSokOdYfLfM9AIJE4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -131,11 +131,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ke1AM3aaMKGq37i/pO5s++FbDWs=
+			2NuVbbtzMK0uxiuJb0i3Sm2yQzE=
 			</data>
 			<key>hash2</key>
 			<data>
-			lpuJVealGEUQpOYQlybotmB4a8UeP1jcyln8AQcmY8Y=
+			ekKAfw3IxMugNHtcxGHRbAZk5NizLndyxeO5K9l+ftU=
 			</data>
 		</dict>
 		<key>Headers/AMRExternalRevenue.h</key>
@@ -241,11 +241,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sd8hzexHEi8lWQJVYoNCXFgCSQA=
+			THFjHUJ5pZN14d4Y1otO/3KA05M=
 			</data>
 			<key>hash2</key>
 			<data>
-			hy2hrN+grf0GRAl3dUMJCnxARQgk3XlKT0OI9ckfkh8=
+			myjdcqlq4CuPy34cB5C1nKGHcjil+FkZiptd4z5JzBQ=
 			</data>
 		</dict>
 		<key>Headers/AMRTypes.h</key>

@@ -42,7 +42,13 @@ typedef NS_ENUM(NSInteger, AMRErrorCode) {
     AMRErrorCodeMismatchZoneId = 1088,
     
     /** Unknown error when try to show ad. */
-    AMRErrorCodeUnknownFailToShow = 1089
+    AMRErrorCodeUnknownFailToShow = 1089,
+    
+    /** Load error when try to veriy. */
+    AMRErrorCodeAdNotVerified = 1090,
+    
+    /** Verify error when try to show ad. */
+    AMRErrorCodeAdNotShownVerified = 1091
     
 };
 
