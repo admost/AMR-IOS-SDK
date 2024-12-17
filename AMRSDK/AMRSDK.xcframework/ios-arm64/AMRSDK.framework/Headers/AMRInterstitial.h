@@ -22,6 +22,12 @@
 /// Returns YES if the interstitial is ready to show. (loaded + capping free)
 @property (nonatomic, readonly) BOOL isReadyToShow;
 
+@property (nonatomic, readonly) NSString *ssvAdUniqueId;
+/// Parameter to move your custom data.
+@property (nonatomic, strong) NSDictionary *customData;
+/// Server Key for server to server.
+@property (nonatomic, strong) NSString *ssvServerKey;
+
 /**
  * Create an instance of AMRInterstitial to show in your application.
  * Example usage:
