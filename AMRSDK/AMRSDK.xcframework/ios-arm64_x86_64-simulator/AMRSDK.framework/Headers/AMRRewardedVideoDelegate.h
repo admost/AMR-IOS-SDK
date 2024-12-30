@@ -55,6 +55,12 @@
 - (void)didFailToShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo __attribute__((deprecated));
 
 /**
+ * Ad networks' revunue paid callback.
+ * @param rewardedVideo AMRInterstitial object.
+ */
+- (void)didRevenuePaidRewardedVideo:(AMRRewardedVideo *)rewardedVideo;
+
+/**
  * User clicked rewarded video.
  * @param rewardedVideo Clicked AMRRewardedVideo object.
  */

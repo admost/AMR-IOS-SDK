@@ -48,6 +48,12 @@
 - (void)didFailToShowInterstitial:(AMRInterstitial *)interstitial error:(AMRError *)error;
 
 /**
+ * Ad networks' revunue paid callback.
+ * @param interstitial AMRInterstitial object.
+ */
+- (void)didRevenuePaidInterstitial:(AMRInterstitial *)interstitial;
+
+/**
  * User clicked interstital.
  * @param interstitial Clicked AMRInterstitial object.
  */
