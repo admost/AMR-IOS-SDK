@@ -12,7 +12,9 @@
 @interface AMRAd : NSObject
 @property NSString *adInfo;
 @property NSDictionary *networkData;
+@property NSArray<NSString *> *excludedPlacementIds;
 @property NSString *zoneId;
+@property NSString *placementId;
 @property NSString *adSpaceId;
 @property AMRNetworkType networkType;
 @property NSString *networkName;

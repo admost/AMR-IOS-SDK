@@ -304,6 +304,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (nullable AMRRemoteConfigValue *)getConfigForKey:(nonnull NSString *)key;
 
+/**
+ * Use this method to force daily frequency capping as 24 hour.
+ * @param useRegionalCappingSettings enable regional daily capping.
+ */
++ (void)regionalCappingSettings:(BOOL)useRegionalCappingSettings;
+
 + (BOOL)isStatusBarHidden __attribute__((deprecated));
 + (BOOL)isInitNetworks __attribute__((deprecated));
 + (void)preloadBannersWithZoneIds:(NSArray *)zoneIds __attribute__((deprecated));
