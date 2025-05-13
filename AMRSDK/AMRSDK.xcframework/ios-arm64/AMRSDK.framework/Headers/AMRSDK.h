@@ -289,11 +289,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)updateATTStatus;
 
 /**
- * You can optionally use fetchRemoteConfigWithCompletion method to fetch remote config from server.
- */
-+ (void)fetchRemoteConfigWithCompletion:(void(^)(AMRError * _Nullable))completion;
-
-/**
  * You can optionally use trackExternalAdRevenue method to send your external ad network revenues.
  */
 + (void)trackExternalAdRevenue:(AMRExternalRevenue *)externalRevenue;
@@ -310,6 +305,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)regionalCappingSettings:(BOOL)useRegionalCappingSettings;
 
++ (void)fetchRemoteConfigWithCompletion:(void(^)(AMRError * _Nullable))completion __attribute__((deprecated));
 + (BOOL)isStatusBarHidden __attribute__((deprecated));
 + (BOOL)isInitNetworks __attribute__((deprecated));
 + (void)preloadBannersWithZoneIds:(NSArray *)zoneIds __attribute__((deprecated));
