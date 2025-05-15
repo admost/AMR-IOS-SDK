@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AMRAd.h</key>
 		<data>
-		PfIeTAS9rXkY06Vpt5fWmunI82c=
+		Rn1zq5nJqX1AJJchQo7lmBQpvN0=
 		</data>
 		<key>Headers/AMRBanner.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ynLMCwpuUpzUJPiaypamiGhUquE=
+		/XkzLsI3ypj38FuHmjl5m80lIiQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PfIeTAS9rXkY06Vpt5fWmunI82c=
+			Rn1zq5nJqX1AJJchQo7lmBQpvN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			gVAiNY7vonLZw+C1HTozBEpMdapRCS+K259q0YoVdWE=
+			JyYDoSPvUWmD6+Kexhchr+jnJD1M287WfhJmjM84HxY=
 			</data>
 		</dict>
 		<key>Headers/AMRBanner.h</key>
