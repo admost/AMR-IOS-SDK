@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/AMRAd.h</key>
 		<data>
-		PfIeTAS9rXkY06Vpt5fWmunI82c=
+		Rn1zq5nJqX1AJJchQo7lmBQpvN0=
 		</data>
 		<key>Headers/AMRBanner.h</key>
 		<data>
-		PNevvPVZw3Tmvx5h6agDzOGWuVw=
+		OAlWM05GZDnZFLoaW/TGj2sQtBg=
 		</data>
 		<key>Headers/AMRBannerDelegate.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LPUDP2kJmvhtFRUlxaC6aBjB488=
+		4i+mW31FDs7i/bEbysGPBA3NvRY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,22 +87,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PfIeTAS9rXkY06Vpt5fWmunI82c=
+			Rn1zq5nJqX1AJJchQo7lmBQpvN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			gVAiNY7vonLZw+C1HTozBEpMdapRCS+K259q0YoVdWE=
+			JyYDoSPvUWmD6+Kexhchr+jnJD1M287WfhJmjM84HxY=
 			</data>
 		</dict>
 		<key>Headers/AMRBanner.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PNevvPVZw3Tmvx5h6agDzOGWuVw=
+			OAlWM05GZDnZFLoaW/TGj2sQtBg=
 			</data>
 			<key>hash2</key>
 			<data>
-			kmQnQdUnnnfIaxNdaUFF/kg0aE8YSR5D3/WiZ3M071c=
+			Ti38Lefa6PkYVq2rJivTeZVLljWB96lQEflCKr+6DS4=
 			</data>
 		</dict>
 		<key>Headers/AMRBannerDelegate.h</key>

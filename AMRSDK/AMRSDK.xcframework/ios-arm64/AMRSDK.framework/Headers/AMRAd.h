@@ -11,6 +11,7 @@
 
 @interface AMRAd : NSObject
 @property NSString *adInfo;
+@property NSInteger stickyRate;
 @property NSDictionary *networkData;
 @property NSArray<NSString *> *excludedPlacementIds;
 @property NSString *zoneId;

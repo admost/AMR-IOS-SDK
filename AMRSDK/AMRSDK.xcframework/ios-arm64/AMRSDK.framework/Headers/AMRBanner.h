@@ -24,6 +24,8 @@
 @property (nonatomic) CGSize customNativeSize;
 /// Custom native ad xib name.
 @property NSString *customeNativeXibName;
+/// Custom native ad xib name list for networks.
+@property NSDictionary<NSNumber*, NSString *> *customNativeXibs;
 /// Adaptive banner info.
 @property (readonly) BOOL isAdaptiveEnabled;
 /// Actual size of bannerView object after banner is loaded.
