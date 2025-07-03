@@ -224,6 +224,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)trackEvent:(NSString *)eventName parameters:(NSDictionary<NSString *, NSString *> * _Nullable)parameters;
 
 /**
+ * Track Custom logs.
+ * @param eventName Event name
+ * * @param parameters Parameters for design event
+ */
++ (void)trackLog:(NSString *)eventName parameters:(NSDictionary<NSString *, NSString *> * _Nullable)parameters;
+
+/**
  * Track Custom events.
  * @param eventName Event name
  * * @param parameters Parameters for design event
