@@ -211,6 +211,28 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setTrackPurchaseResponseDelegate:(id<AMRTrackPurchaseResponseDelegate>)delegate;
 
 /**
+ * Track Screen view events.
+ * @param screenName Name of the view
+ */
++ (void)trackScreenView:(NSString *)screenName;
+
+/**
+ * Track Custom events.
+ * @param eventName Event name
+ * * @param parameters Parameters for design event
+ */
++ (void)trackEvent:(NSString *)eventName parameters:(NSDictionary<NSString *, NSString *> * _Nullable)parameters;
+
+/**
+ * Track Custom events.
+ * @param eventName Event name
+ * * @param parameters Parameters for design event
+ * * @param currency Currency for sink-source events
+ * * @param value Amount for sink-source events
+ */
++ (void)trackEvent:(NSString *)eventName parameters:(NSDictionary<NSString *, NSString *> * _Nullable)parameters currency:(NSString *)currency value:(double)value;
+
+/**
  * @deprecated This method is deprecated please use startTesterInfoWithAppId method instead.
  */
 + (void)startTestSuiteWithAppId:(NSString *)appId __attribute__((deprecated));
