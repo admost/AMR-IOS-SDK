@@ -1,7 +1,7 @@
 ![AMRSDK: Admost Mediation iOS SDK](https://www.admost.com/img/logo.svg)
 
 [![Swift](https://img.shields.io/badge/Swift-4.0_6.0-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.9_5.10_6.0-Orange?style=flat-square)
-[![Platforms](https://img.shields.io/badge/Platforms-macOS_iOS-yellowgreen?style=flat-square)](https://img.shields.io/badge/Platforms-macOS_iOS_tvOS_watchOS_vision_OS_Linux_Windows_Android-Green?style=flat-square)
+[![Platforms](https://img.shields.io/badge/Platforms-_iOS-yellowgreen?style=flat-square)](https://img.shields.io/badge/Platforms-macOS_iOS_tvOS_watchOS_vision_OS_Linux_Windows_Android-Green?style=flat-square)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/AMRSDK.svg?style=flat-square)](https://img.shields.io/cocoapods/v/AMRSDK.svg)
 
 
