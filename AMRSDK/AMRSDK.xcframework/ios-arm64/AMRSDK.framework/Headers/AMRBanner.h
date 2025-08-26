@@ -7,6 +7,7 @@
 //
 
 #import "AMRBannerView.h"
+#import "AMRNativeAdAssets.h"
 #import "AMRTypes.h"
 #import "AMRSDK.h"
 
@@ -30,6 +31,9 @@
 @property (readonly) BOOL isAdaptiveEnabled;
 /// Actual size of bannerView object after banner is loaded.
 @property (nonatomic, assign, readonly) CGSize bannerSize;
+/// Native ad assets.
+@property AMRNativeAdAssets *nativeAdAssets;
+
 
 /**
  * Create an instance of AMRBanner to show in your application.
