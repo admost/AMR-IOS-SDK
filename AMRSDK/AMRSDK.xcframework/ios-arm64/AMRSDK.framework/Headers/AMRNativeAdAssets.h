@@ -11,9 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AMRNativeAdAssets : NSObject
-@property NSString *title;
-@property NSString *desc;
-@property NSString *ctaText;
+@property (nullable) NSString *title;
+@property (nullable) NSString *desc;
+@property (nullable) NSString *ctaText;
 @end
 
 NS_ASSUME_NONNULL_END
