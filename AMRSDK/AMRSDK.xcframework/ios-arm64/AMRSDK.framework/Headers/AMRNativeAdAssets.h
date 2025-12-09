@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable) NSString *title;
 @property (nullable) NSString *desc;
 @property (nullable) NSString *ctaText;
+@property (nullable) NSURL *ctaURL;
+@property (nullable) NSURL *iconURL;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -38,11 +38,11 @@
 		</data>
 		<key>Headers/AMRNativeAdAssets.h</key>
 		<data>
-		9ZmnUfvtm+Vi2eIeZ9QAFZ6IGLQ=
+		E0og2Jb+Tjf4wXvP2mKw025i7+w=
 		</data>
 		<key>Headers/AMRNativeAdBaseView.h</key>
 		<data>
-		3EprIoALpU4yOO4XT7boBFXBGiM=
+		5vwf3FbmWZ1VsZ23j67ANAxlmXY=
 		</data>
 		<key>Headers/AMROfferWall.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		n14mEd5uA5plC7hu7b01xRTa5M0=
+		B/awlEsVv9+ttFRJwwwT6CTR5Vo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -147,14 +147,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4AaEY+i3IECKCMG7yALsR3DYXHzR/wNDL5L0cOGzulQ=
+			iCblEIVtmDEvd6Ifrt2b+NFVBfrv15Ar/IXyUuEK/Is=
 			</data>
 		</dict>
 		<key>Headers/AMRNativeAdBaseView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tCTK2PZWq/vutxdKFNyJ4tVcfTLUaU75bzdoVl6JGdY=
+			We2t7tj8c8rMZf2eYqLy1Rq+uW4r0CVz0g0sf5WdUOA=
 			</data>
 		</dict>
 		<key>Headers/AMROfferWall.h</key>

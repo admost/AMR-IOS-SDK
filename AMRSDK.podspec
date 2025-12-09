@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRSDK'
-  s.version          = '1.5.77'
+  s.version          = '1.5.78'
   s.requires_arc     = true
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 									Copyright 2016

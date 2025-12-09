@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AMRTypes.h"
 
-@class AMRPlacement;
+@class AMRPlacement, AMRNativeAdAssets;
 
 extern NSString * const kAMRImageNameDefaultPrivacyIcon;
 
@@ -43,6 +43,7 @@ extern NSString * const kAMRNativeAssetKeySponsored;
 @property (nonatomic, weak) IBOutlet UIButton *BTNClickFB;
 @property (nonatomic, assign) AMRBannerSize bannerSize;
 @property (nonatomic, strong) AMRPlacement *placement;
+@property (nonatomic, strong) AMRNativeAdAssets *nativeAdAssets;
 
 //Will be depreciated soon.
 @property (nonatomic, weak) IBOutlet UIView *trackingView __deprecated;
