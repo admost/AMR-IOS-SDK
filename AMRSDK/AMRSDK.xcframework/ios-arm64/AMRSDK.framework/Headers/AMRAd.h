@@ -18,6 +18,7 @@
 @property NSString *placementId;
 @property NSString *adSpaceId;
 @property AMRNetworkType networkType;
+@property AMRBannerType bannerType;
 @property NSString *networkName;
 @property NSNumber *ecpm;
 @property NSString *tag;
