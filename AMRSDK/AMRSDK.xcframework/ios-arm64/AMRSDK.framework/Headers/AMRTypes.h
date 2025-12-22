@@ -342,4 +342,14 @@ typedef NS_ENUM(NSInteger, AMRAdState) {
     AMRAdStateFrequencyCapFinished = 1
 };
 
+typedef NS_ENUM(NSInteger, AMRBannerType) {
+    AMRBannerTypeNoType = 0,
+    AMRBannerTypeBanner,
+    AMRBannerTypeNative,
+    AMRBannerTypeNativeInstall,
+    AMRBannerTypeVideo,
+    AMRBAnnerTypeOfferWall
+};
+
+
 #endif /* AMRTypes_h */
