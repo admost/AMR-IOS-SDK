@@ -13,14 +13,14 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/kokteyldev/KOKTEYL-LOG-SDK.git", from: "1.1.1")
+        .package(url: "https://github.com/kokteyldev/KOKTEYL-LOG-SDK.git", from: "1.1.2")
     ],
     targets: [
         .target(
             name: "AMRSDKWrapper",
             dependencies: [
                 "AMRSDKBinary",
-                .product(name: "KokteylLog", package: "KokteylLog")
+                .product(name: "KokteylLog", package: "KOKTEYL-LOG-SDK")
             ],
             path: "AMRSDK",
             exclude: ["AMRSDK.xcframework"],
