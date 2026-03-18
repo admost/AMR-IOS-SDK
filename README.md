@@ -44,7 +44,7 @@ For testing you can use following Ids:
 Add the following to your `Package.swift` dependencies:
 
 ```swift
-.package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.79")
+.package(url: "https://github.com/admost/AMR-IOS-SDK.git", from: "1.5.84")
 ```
 
 Then add `AMRSDK` to your target dependencies:

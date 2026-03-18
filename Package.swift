@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/kokteyldev/KOKTEYL-LOG-SDK.git", from: "1.1.2")
+        .package(url: "https://github.com/kokteyldev/KOKTEYL-LOG-SDK.git", from: "1.1.4")
     ],
     targets: [
         .target(
