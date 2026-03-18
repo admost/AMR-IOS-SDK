@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRSDK'
-  s.version          = '1.5.80'
+  s.version          = '1.5.82'
   s.requires_arc     = true
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 									Copyright 2016
@@ -23,12 +23,12 @@ Admost Mediation Router is a powerful mediation tool to maximize your ad revenue
   s.libraries = 'z'
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -lc++',
-    "VALID_ARCHS": "arm64 armv7 x86_64",
-    'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
+    "VALID_ARCHS": "arm64 x86_64",
+    'VALID_ARCHS[sdk=iphoneos*]' => 'arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
 
-  s.dependency 'KokteylLog', '~> 1.1.1'
+  s.dependency 'KokteylLog', '~> 1.1.3'
   s.swift_versions = ['5']
   s.subspec 'Core' do |cr|
     cr.vendored_frameworks = 'AMRSDK/AMRSDK.xcframework'

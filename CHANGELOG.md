@@ -2,11 +2,7 @@
 
 Changelog for AMRSDK.
 
-## [1.5.81] - 2026-03-18
-### Updated
-- SPM tag conflict resolved.
-
-## [1.5.80] - 2026-03-16
+## [1.5.82] - 2026-03-18
 ### Updated
 - SPM support added.
 

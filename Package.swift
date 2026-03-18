@@ -46,8 +46,7 @@ let package = Package(
                 .linkedFramework("WebKit"),
                 .linkedFramework("StoreKit"),
                 .linkedLibrary("z"),
-                .linkedLibrary("c++"),
-                .unsafeFlags(["-ObjC"])
+                .linkedLibrary("c++")
             ]
         ),
         .binaryTarget(
