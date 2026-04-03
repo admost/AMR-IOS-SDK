@@ -2,6 +2,10 @@
 
 Changelog for AMRSDK.
 
+## [1.5.85] - 2026-04-03
+### Updated
+- BuyerID check added.
+
 ## [1.5.84] - 2026-03-18
 ### Updated
 - SPM support added.
