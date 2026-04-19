@@ -2,7 +2,7 @@
 
 Changelog for AMRSDK.
 
-## [1.5.86] - 2026-04-19
+## [1.5.87] - 2026-04-19
 ### Updated
 - UserDefaults crashes fixed.
 
