@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRSDK'
-  s.version          = '1.5.85'
+  s.version          = '1.5.86'
   s.requires_arc     = true
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 									Copyright 2016
@@ -17,7 +17,7 @@ Admost Mediation Router is a powerful mediation tool to maximize your ad revenue
  								 :tag => s.version.to_s }
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
   s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'AVKit', 'CFNetwork', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'JavaScriptCore', 'MediaPlayer', 'QuartzCore', 'SafariServices', 'SystemConfiguration'
   s.weak_frameworks = ['Foundation', 'UIKit', 'WebKit', 'StoreKit']
   s.libraries = 'z'
