@@ -2,6 +2,10 @@
 
 Changelog for AMRSDK.
 
+## [1.5.88] - 2026-04-25
+### Updated
+- Merge remote config added for experiments.
+
 ## [1.5.87] - 2026-04-19
 ### Updated
 - UserDefaults crashes fixed.
