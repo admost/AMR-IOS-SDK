@@ -2,6 +2,10 @@
 
 Changelog for AMRSDK.
 
+## [1.5.89] - 2026-04-28
+### Updated
+- iOS13 crashes fixed.
+
 ## [1.5.88] - 2026-04-25
 ### Updated
 - Merge remote config added for experiments.
