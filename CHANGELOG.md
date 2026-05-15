@@ -2,6 +2,10 @@
 
 Changelog for AMRSDK.
 
+## [1.5.90] - 2026-05-15
+### Updated
+- Nested JSON support added for remote config.
+
 ## [1.5.89] - 2026-04-28
 ### Updated
 - iOS13 crashes fixed.
