@@ -2,6 +2,14 @@
 
 Changelog for AMRSDK.
 
+## [1.5.92] - 2026-05-27
+### Added
+- HTTP request tracking API (`+trackHTTPRequestWithURL:method:startTime:duration:statusCode:requestPayloadSize:responsePayloadSize:error:` and `+startHTTPRequestTraceWithURL:method:`).
+- Automatic lifecycle events (app_install, app_update, app_launch, session_start, session_end, app_foreground, app_background, low_memory_warning, thermal_state_change, locale_change, timezone_change, network_change, install_to_first_session_delay).
+- `session_index` auto-injected into all event properties.
+- Disk-persisted batched event uploader with at-most-once delivery.
+- Soft-binding to AMRNetworkSDK (`AutoNetworkTrackerEnabled` remote config flag).
+
 ## [1.5.90] - 2026-05-15
 ### Updated
 - Nested JSON support added for remote config.

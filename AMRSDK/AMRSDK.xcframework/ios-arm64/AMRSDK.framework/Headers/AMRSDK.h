@@ -22,6 +22,7 @@
 #import "AMRUserExperiment.h"
 #import "AMRRemoteConfigValue.h"
 #import "AMRExternalRevenue.h"
+#import "AMRHTTPRequestTrace.h"
 
 typedef void(^AMRInitCompletionHandler)(AMRError *_Nullable error);
 
@@ -333,6 +334,36 @@ NS_ASSUME_NONNULL_BEGIN
  * @param useRegionalCappingSettings enable regional daily capping.
  */
 + (void)regionalCappingSettings:(BOOL)useRegionalCappingSettings;
+
+/**
+ * Start tracking an HTTP request. Call methods on the returned trace as the request
+ * progresses, then call -endWithStatusCode: or -endWithError: when it completes.
+ * Returns nil if the HTTP tracking feature is disabled or the URL is invalid.
+ * @param url Request URL.
+ * @param method HTTP method (e.g. "GET", "POST"). Defaults to "GET" if empty.
+ */
++ (nullable AMRHTTPRequestTrace *)startHTTPRequestTraceWithURL:(NSURL *)url method:(NSString *)method;
+
+/**
+ * Record a completed HTTP request in one call. Use this when the duration and outcome
+ * are already known (e.g. from URLSessionTaskMetrics or a wrapping SDK).
+ * @param url Request URL.
+ * @param method HTTP method.
+ * @param startUnixTime Request start time as Unix epoch seconds.
+ * @param durationSeconds Total request duration in seconds.
+ * @param statusCode HTTP response status code (0 if not applicable).
+ * @param requestBytes Bytes sent (negative if unknown).
+ * @param responseBytes Bytes received (negative if unknown).
+ * @param error Error if the request failed, nil otherwise.
+ */
++ (void)trackHTTPRequestWithURL:(NSURL *)url
+                         method:(NSString *)method
+                      startTime:(NSTimeInterval)startUnixTime
+                       duration:(NSTimeInterval)durationSeconds
+                     statusCode:(NSInteger)statusCode
+             requestPayloadSize:(int64_t)requestBytes
+            responsePayloadSize:(int64_t)responseBytes
+                          error:(nullable NSError *)error;
 
 + (void)fetchRemoteConfigWithCompletion:(void(^)(AMRError * _Nullable))completion __attribute__((deprecated));
 + (BOOL)isStatusBarHidden __attribute__((deprecated));
