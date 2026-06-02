@@ -2,6 +2,10 @@
 
 Changelog for AMRSDK.
 
+## [1.5.94] - 2026-06-02
+### Added
+- Socket request tracking API (`+trackSocketRequestWithURL:method:startTime:duration:statusCode:requestPayloadSize:responsePayloadSize:error:`), emitting `socket_request` events.
+
 ## [1.5.93] - 2026-05-29
 ### Fixed
 - `AMRResources.bundle` was packaged from a simulator (`iPhoneSimulator`) build in 1.5.92, causing App Store validation to fail with "Invalid CFBundleSupportedPlatforms value". Replaced with the device (`iPhoneOS`) bundle. No code or binary changes.

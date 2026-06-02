@@ -365,6 +365,27 @@ NS_ASSUME_NONNULL_BEGIN
             responsePayloadSize:(int64_t)responseBytes
                           error:(nullable NSError *)error;
 
+/**
+ * Record a completed socket request in one call. Use this when the duration and outcome
+ * are already known (e.g. from URLSessionTaskMetrics or a wrapping SDK).
+ * @param url Request URL.
+ * @param method HTTP method.
+ * @param startUnixTime Request start time as Unix epoch seconds.
+ * @param durationSeconds Total request duration in seconds.
+ * @param statusCode HTTP response status code (0 if not applicable).
+ * @param requestBytes Bytes sent (negative if unknown).
+ * @param responseBytes Bytes received (negative if unknown).
+ * @param error Error if the request failed, nil otherwise.
+ */
++ (void)trackSocketRequestWithURL:(NSURL *)url
+                           method:(NSString *)method
+                        startTime:(NSTimeInterval)startUnixTime
+                         duration:(NSTimeInterval)durationSeconds
+                       statusCode:(NSInteger)statusCode
+               requestPayloadSize:(int64_t)requestBytes
+              responsePayloadSize:(int64_t)responseBytes
+                            error:(nullable NSError *)error;
+
 + (void)fetchRemoteConfigWithCompletion:(void(^)(AMRError * _Nullable))completion __attribute__((deprecated));
 + (BOOL)isStatusBarHidden __attribute__((deprecated));
 + (BOOL)isInitNetworks __attribute__((deprecated));
