@@ -2,6 +2,11 @@
 
 Changelog for AMRSDK.
 
+## [1.5.95-beta.1] - 2026-06-18
+### Added (pre-release / test only)
+- Automatic `notification_open` lifecycle event: detects when the app is opened by tapping a notification, by observing (not owning) the host's `UNUserNotificationCenter` delegate. Crash-safe (fully guarded, fails silently) with a self-healing boot-time crash guard.
+- **Pre-release build only:** notification tracking defaults to ON in this `-beta` so test apps activate it without a server flag. Stable releases keep it OFF (remote `NotificationTrackerEnabled` opt-in). Not picked up by stable CocoaPods/SPM version rules.
+
 ## [1.5.94] - 2026-06-02
 ### Added
 - Socket request tracking API (`+trackSocketRequestWithURL:method:startTime:duration:statusCode:requestPayloadSize:responsePayloadSize:error:`), emitting `socket_request` events.
