@@ -2,6 +2,10 @@
 
 Changelog for AMRSDK.
 
+## [1.5.96-beta.1] - 2026-07-09
+### Added (pre-release / test only)
+- New Test Suite features.
+
 ## [1.5.95-beta.1] - 2026-06-18
 ### Added (pre-release / test only)
 - Automatic `notification_open` lifecycle event: detects when the app is opened by tapping a notification, by observing (not owning) the host's `UNUserNotificationCenter` delegate. Crash-safe (fully guarded, fails silently) with a self-healing boot-time crash guard.
