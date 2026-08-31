@@ -2,6 +2,26 @@
 
 Changelog for AMRSDK.
 
+## [1.6.0-beta.1] - 2026-08-31
+### Fixed
+- Use-after-free crash on the bidding access queue (`objc_msgSend` in `handleBiddingLoaderResponse`); shared loader state is now accessed atomically. Verified with ThreadSanitizer.
+- Broken or truncated waterfall responses now produce a fail callback instead of leaving the load hanging forever.
+- Placement timeout timer now always schedules on the main run loop; the adapter-init-wait branch used to start a timer that never fired.
+- TCF Additional Consent parsing: exact vendor-id matching on the consented section only (substring matching could grant consent from unrelated or disclosed-only ids); vendor list extended to Android parity (TikTok, Liftoff, Bigo, Fyber, StartApp, Tapjoy).
+- Meta/Facebook Additional Consent id corrected from 3331 (an unrelated provider) to 89.
+- S2S bid reports were re-sent on every upload cycle because the success path never cleared them.
+
+### Changed
+- All publisher delegate callbacks are now delivered on the main thread (synchronous when already on main, so networks that call back on main keep their exact timing).
+- Additional Consent is read from any certified TCF CMP (Didomi, Sourcepoint, ...), not only Google UMP; `IABTCF_gdprApplies` is honored — outside the EEA all vendors are treated as granted, matching Android.
+- Privacy manifest (`PrivacyInfo.xcprivacy`) ships inside every xcframework slice and in `AMRResources.bundle`; declares tracking, Device ID, Advertising Data and User ID. The xcframework is code-signed.
+- The IAB `IABUSPrivacy_String` key is published centrally for networks that read it themselves; a CMP's or publisher's own value is never overwritten.
+- Request timeouts now match the Android SDK: 5s waterfall/country, 30s report/event uploads, 10s default (was the 60s system default).
+- Waterfall JSON parsing moved off the main thread; all requests share one NSURLSession (connection and TLS reuse).
+- Report uploads adopt Android's delivery semantics: batches are cleared only on confirmed delivery, connection-lost-mid-response counts as delivered, other failures retry with linear backoff.
+- The server-error fallback cache moved from NSUserDefaults to per-record files under Caches/ with a 30-day age limit; legacy data migrates automatically.
+- The UserDefaults suite no longer depends on the changeable CFBundleName; legacy data migrates once to the stable suite.
+
 ## [1.5.95-beta.1] - 2026-06-18
 ### Added (pre-release / test only)
 - Automatic `notification_open` lifecycle event: detects when the app is opened by tapping a notification, by observing (not owning) the host's `UNUserNotificationCenter` delegate. Crash-safe (fully guarded, fails silently) with a self-healing boot-time crash guard.

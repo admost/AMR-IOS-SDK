@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		42qJb5zhmuWcuW1C3ehiDcXQ3R4=
+		pkvwHWKOHKmv2FvgY2QgPg8qqvQ=
 		</data>
 		<key>LIFECYCLE_EVENTS.md</key>
 		<data>
@@ -91,6 +91,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		+8ZkODY+sqo12LY44fs4SRpacOU=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		gJKFFR5AUmmEWTklwe31kjSMyeI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -240,6 +244,13 @@
 			<key>hash2</key>
 			<data>
 			sGkXXGk9d6TwAjMFdLrR/SPshY1DpsIvLBT445Mfs3U=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y4EuvVPLZIJpMfORKQmmufPyuBxelTBx0JjVq9WR8d8=
 			</data>
 		</dict>
 	</dict>
