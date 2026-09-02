@@ -2,6 +2,11 @@
 
 Changelog for AMRSDK.
 
+## [1.6.0-beta.3] - 2026-09-02
+### Changed
+- Cache-on-consume snapshots the publisher's `networkData` (an immutable copy) before the asynchronous slot cache, so a later publisher mutation of the same dictionary cannot race the cache work.
+- Test Suite: `didRevenuePaid*` handlers now log the reported network, ecpm, revenue and currency; the `/requestNotFilled` tester marker moved out of the floor-price tracker to the actual no-fill sites (no behavior change); magic row indices replaced with named constants; removed an obsolete base-class TODO.
+
 ## [1.6.0-beta.2] - 2026-09-02
 ### Added
 - S2S bid requests now forward the IAB privacy signals to the exchange: GDPR/TCF consent (`IABTCF_TCString`, `IABTCF_gdprApplies`), CCPA/`IABUSPrivacy_String`, and GPP (`IABGPP_HDR_GppString`, `IABGPP_GppSID`) — mapped onto OpenRTB `Regs`/`User`.
