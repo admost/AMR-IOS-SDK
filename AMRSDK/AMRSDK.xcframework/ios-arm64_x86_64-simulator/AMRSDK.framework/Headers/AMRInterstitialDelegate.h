@@ -6,7 +6,11 @@
 //  Copyright © 2016 Tolga Seremet. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @class AMRInterstitial, AMRError;
+
+NS_ASSUME_NONNULL_BEGIN
 
 /**
  * @protocol AMRInterstitialDelegate
@@ -73,3 +77,5 @@
 - (void)didInterstitialStateChanged:(AMRInterstitial *)interstitial state:(AMRAdState)state;
 
 @end
+
+NS_ASSUME_NONNULL_END

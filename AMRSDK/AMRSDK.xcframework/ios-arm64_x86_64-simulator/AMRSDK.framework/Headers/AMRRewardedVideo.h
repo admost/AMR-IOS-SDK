@@ -11,10 +11,12 @@
 
 @class AMRAd, UIViewController;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface AMRRewardedVideo : AMRAd
 
 /// An object conforms to <AMRRewardedVideoDelegate> protocol.
-@property (weak) id<AMRRewardedVideoDelegate> delegate;
+@property (weak, nullable) id<AMRRewardedVideoDelegate> delegate;
 /// Returns YES if the rewarded video is requested.
 @property (nonatomic, readonly) BOOL isLoading;
 /// Returns YES if the rewarded video is loaded.
@@ -22,16 +24,16 @@
 /// Returns YES if the interstitial is ready to show. (loaded + capping free)
 @property (nonatomic, readonly) BOOL isReadyToShow;
 
-@property (nonatomic, readonly) NSString *ssvAdUniqueId;
+@property (nonatomic, readonly, nullable) NSString *ssvAdUniqueId;
 
 /// Parameter to move your custom data.
-@property (nonatomic, strong) NSDictionary *customData;
+@property (nonatomic, strong, nullable) NSDictionary *customData;
 
 /// Parameter to set reward amount.
 @property (nonatomic, assign) CGFloat completionReward;
 
 /// Server Key for server to server.
-@property (nonatomic, strong) NSString *ssvServerKey;
+@property (nonatomic, strong, nullable) NSString *ssvServerKey;
 
 /**
  * Create an instance of AMRRewardedVideo to show in your application.
@@ -75,6 +77,8 @@
  * @param viewController Your rewardedvideo's presenting viewcontroller.
  * @param tag Distinction value for ads that used in multiple purposes.
  */
-- (void)showFromViewController:(UIViewController * )viewController withTag:(NSString *)tag;
+- (void)showFromViewController:(UIViewController * )viewController withTag:(nullable NSString *)tag;
 
 @end
+
+NS_ASSUME_NONNULL_END

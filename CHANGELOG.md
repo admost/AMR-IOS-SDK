@@ -2,6 +2,15 @@
 
 Changelog for AMRSDK.
 
+## [1.6.0-beta.2] - 2026-09-02
+### Added
+- S2S bid requests now forward the IAB privacy signals to the exchange: GDPR/TCF consent (`IABTCF_TCString`, `IABTCF_gdprApplies`), CCPA/`IABUSPrivacy_String`, and GPP (`IABGPP_HDR_GppString`, `IABGPP_GppSID`) — mapped onto OpenRTB `Regs`/`User`.
+
+### Changed
+- ATT-triggered IDFA update re-enabled: `updateATTStatus` refreshes the encrypted advertising id on the server after the ATT prompt. It is deduplicated (only sends when the id actually changed) and dispatched off the launch/main path; the analytics update guard is now atomic and the last-value persistence is coalesced into a single `UserDefaults` write to reduce the launch-time write pressure behind the CFPreferences crash.
+- Public headers annotated for nullability (`NS_ASSUME_NONNULL_BEGIN/END`); genuinely-optional API is marked `nullable`. **Swift note:** values that previously imported as implicitly-unwrapped optionals (e.g. `AMRBanner.bannerView`, `AMRAd.ecpm`/`networkName`, delegate parameters) are now proper optionals — Swift call sites may need to unwrap. Objective-C is source-compatible.
+- Refreshed the SKAdNetwork / network id list.
+
 ## [1.6.0-beta.1] - 2026-08-31
 ### Fixed
 - Use-after-free crash on the bidding access queue (`objc_msgSend` in `handleBiddingLoaderResponse`); shared loader state is now accessed atomically. Verified with ThreadSanitizer.

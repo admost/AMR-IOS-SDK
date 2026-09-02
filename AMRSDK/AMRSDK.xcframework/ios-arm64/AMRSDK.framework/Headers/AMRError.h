@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef NS_ENUM(NSInteger, AMRErrorCode) {
     AMRErrorCodeUnknownError = 0,
     
@@ -61,8 +63,10 @@ typedef NS_ENUM(NSInteger, AMRErrorCode) {
 /**
  * Description of error.
  */
-@property (readonly) NSString *errorDescription;
+@property (readonly, nullable) NSString *errorDescription;
 
 + (instancetype)errorWithError:(NSError *)error;
-+ (instancetype)errorWithCode:(AMRErrorCode)code detail:(NSString *)detail;
++ (instancetype)errorWithCode:(AMRErrorCode)code detail:(nullable NSString *)detail;
 @end
+
+NS_ASSUME_NONNULL_END

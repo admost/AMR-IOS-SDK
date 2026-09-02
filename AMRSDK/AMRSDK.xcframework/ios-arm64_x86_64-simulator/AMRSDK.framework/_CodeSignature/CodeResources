@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/AMRAd.h</key>
 		<data>
-		1bujTJ5TYgUzk2IPg5ZCNgC1CV4=
+		Pc/8kYxmBTT7yA735w4J46v/kvY=
 		</data>
 		<key>Headers/AMRBanner.h</key>
 		<data>
-		5QNvX5HDAC2uALwav4MnRTeGbHo=
+		cl0J5YkqGK8GQ3WmA/nxDC7Ps4g=
 		</data>
 		<key>Headers/AMRBannerDelegate.h</key>
 		<data>
-		smTdfIkIZKUY/2rNrZsCfZa85xY=
+		+bEfkBAFQtEH9MbfTGLTeu0duzM=
 		</data>
 		<key>Headers/AMRBannerView.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/AMRError.h</key>
 		<data>
-		2NuVbbtzMK0uxiuJb0i3Sm2yQzE=
+		rEIElq3C9AIRqBf/bbZhMMQNYWM=
 		</data>
 		<key>Headers/AMRExternalRevenue.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/AMRInterstitial.h</key>
 		<data>
-		nD42jYO6LZ52+aykkFKFBVs7YKg=
+		AQpaHFAkkWrhv3erYkgt2n3w8hU=
 		</data>
 		<key>Headers/AMRInterstitialDelegate.h</key>
 		<data>
-		lZWzRKnF+D5E/zL9DehBXOK4Plw=
+		W3yCR4lUpWQ/d37NpvC/Unaw85c=
 		</data>
 		<key>Headers/AMRNativeAdAssets.h</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Headers/AMROfferWall.h</key>
 		<data>
-		umOlG8gAFXKW9JXiGqRfo+v+kOM=
+		1qUdSh/858ChGjDIycRmgWsQSbE=
 		</data>
 		<key>Headers/AMROfferWallDelegate.h</key>
 		<data>
-		wTmDYEkcLEG1GHdGok35xgLPxPg=
+		jaDN765vkT0lwOoqLf7p0++luxc=
 		</data>
 		<key>Headers/AMRRemoteConfigValue.h</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Headers/AMRRewardedVideo.h</key>
 		<data>
-		aCH2nChC8sEXOM4QPHkg5/riAjE=
+		z9Mt1KhqVgzs9ebppcR5fbj+TQw=
 		</data>
 		<key>Headers/AMRRewardedVideoDelegate.h</key>
 		<data>
-		kPM4B3x7JljLBJ6We19/+TC3wRY=
+		T8qNQ59LAvxbch1a55ZzgXdDMik=
 		</data>
 		<key>Headers/AMRSDK.h</key>
 		<data>
@@ -103,21 +103,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E7U8PDc5xM1ETmPtg9FDwRMWuockyQ6Ay91Jj1vFJ7Q=
+			ditaLH6PvGO+GT49J0a1767xH6I1bQMn7zzmd254G3w=
 			</data>
 		</dict>
 		<key>Headers/AMRBanner.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dfzVNOjMDMte1uKrfTG0MBi7SwnesE8BcuDC48CxVy4=
+			k15WMYuIeRw/pqtYCvVsW4zkQ2gH5K+ZzAC1QmFwzGk=
 			</data>
 		</dict>
 		<key>Headers/AMRBannerDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1XbwVPRNfeihNpQ8ONI5X4WDwlTqnHTxofhQd2d6Mww=
+			Bya/4zR4yReYCZd3erTIF6PlGCsjw0akZhfM5G4DtNA=
 			</data>
 		</dict>
 		<key>Headers/AMRBannerView.h</key>
@@ -131,7 +131,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ekKAfw3IxMugNHtcxGHRbAZk5NizLndyxeO5K9l+ftU=
+			z6yqQXeDDdmrTcGQzv2fqbBjPjiobRSAgue5tYQjADQ=
 			</data>
 		</dict>
 		<key>Headers/AMRExternalRevenue.h</key>
@@ -152,14 +152,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NO/G8nPGKD4FobrslQPz5PQ2DJyIJjuiLgaNZ4fiZZI=
+			ncWFZnV4cyEyJiEa+QIvrvl87DLi1WpPnskghX77V1g=
 			</data>
 		</dict>
 		<key>Headers/AMRInterstitialDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iD6FW2y9qGx27YHXk+gDqvRlL0BrlsbYLsx+ygbJDf4=
+			qXnOWKBJjophx0/zo3oAJ9VLQaU0+qbOh4ILCmR2MHs=
 			</data>
 		</dict>
 		<key>Headers/AMRNativeAdAssets.h</key>
@@ -180,14 +180,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k2hGa1YMa7RaemzIyFhX64nX9KcxI1Pw7qnaq0YGo4w=
+			RGLXUxUndePR7ummkeXjhbAIwsRFg46KgtHHRB+HuM4=
 			</data>
 		</dict>
 		<key>Headers/AMROfferWallDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0NxTpDevh7ZGBqH3jBjC1kr08wzVYUPbJBh/UG6ra1Y=
+			PGazV2Y2RA0zQmphUeWLDiWb88qrNSJzikPas4C/7Pg=
 			</data>
 		</dict>
 		<key>Headers/AMRRemoteConfigValue.h</key>
@@ -201,14 +201,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yxsB/JkeUZy1BCdHYpkYHU1N6BHUGABSuaTASvkHORU=
+			CROHtY/fgqA8o4GcBb7HDlC0TOT35ASZXcCs9Dos09Y=
 			</data>
 		</dict>
 		<key>Headers/AMRRewardedVideoDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9n7O/zI9TcC7Ctpsv9sCPEa3fDI4iIu6YsAzYdCrKXE=
+			RnVN2VpJTdwfHdKKxo35H0ufIw36mj6VfuoI4qUofeg=
 			</data>
 		</dict>
 		<key>Headers/AMRSDK.h</key>

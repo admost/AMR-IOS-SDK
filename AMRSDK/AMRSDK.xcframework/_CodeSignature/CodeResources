@@ -6,19 +6,19 @@
 	<dict>
 		<key>ios-arm64/AMRSDK.framework/AMRSDK</key>
 		<data>
-		Xi2ysW/UOYsGWFQ4lSfNerDVsN4=
+		yISXQIlz0vr7DCRVJgIkKK2SZFw=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRAd.h</key>
 		<data>
-		1bujTJ5TYgUzk2IPg5ZCNgC1CV4=
+		Pc/8kYxmBTT7yA735w4J46v/kvY=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRBanner.h</key>
 		<data>
-		5QNvX5HDAC2uALwav4MnRTeGbHo=
+		cl0J5YkqGK8GQ3WmA/nxDC7Ps4g=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRBannerDelegate.h</key>
 		<data>
-		smTdfIkIZKUY/2rNrZsCfZa85xY=
+		+bEfkBAFQtEH9MbfTGLTeu0duzM=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRBannerView.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRError.h</key>
 		<data>
-		2NuVbbtzMK0uxiuJb0i3Sm2yQzE=
+		rEIElq3C9AIRqBf/bbZhMMQNYWM=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRExternalRevenue.h</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRInterstitial.h</key>
 		<data>
-		nD42jYO6LZ52+aykkFKFBVs7YKg=
+		AQpaHFAkkWrhv3erYkgt2n3w8hU=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRInterstitialDelegate.h</key>
 		<data>
-		lZWzRKnF+D5E/zL9DehBXOK4Plw=
+		W3yCR4lUpWQ/d37NpvC/Unaw85c=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRNativeAdAssets.h</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMROfferWall.h</key>
 		<data>
-		umOlG8gAFXKW9JXiGqRfo+v+kOM=
+		1qUdSh/858ChGjDIycRmgWsQSbE=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMROfferWallDelegate.h</key>
 		<data>
-		wTmDYEkcLEG1GHdGok35xgLPxPg=
+		jaDN765vkT0lwOoqLf7p0++luxc=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRRemoteConfigValue.h</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRRewardedVideo.h</key>
 		<data>
-		aCH2nChC8sEXOM4QPHkg5/riAjE=
+		z9Mt1KhqVgzs9ebppcR5fbj+TQw=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRRewardedVideoDelegate.h</key>
 		<data>
-		kPM4B3x7JljLBJ6We19/+TC3wRY=
+		T8qNQ59LAvxbch1a55ZzgXdDMik=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRSDK.h</key>
 		<data>
@@ -102,19 +102,19 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/AMRSDK</key>
 		<data>
-		+0pTjj2xiXRIWltDky1SE85MtyA=
+		Ha1N9lS39YS/pR4PoTqX9Z98p3U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRAd.h</key>
 		<data>
-		1bujTJ5TYgUzk2IPg5ZCNgC1CV4=
+		Pc/8kYxmBTT7yA735w4J46v/kvY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRBanner.h</key>
 		<data>
-		5QNvX5HDAC2uALwav4MnRTeGbHo=
+		cl0J5YkqGK8GQ3WmA/nxDC7Ps4g=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRBannerDelegate.h</key>
 		<data>
-		smTdfIkIZKUY/2rNrZsCfZa85xY=
+		+bEfkBAFQtEH9MbfTGLTeu0duzM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRBannerView.h</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRError.h</key>
 		<data>
-		2NuVbbtzMK0uxiuJb0i3Sm2yQzE=
+		rEIElq3C9AIRqBf/bbZhMMQNYWM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRExternalRevenue.h</key>
 		<data>
@@ -134,11 +134,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRInterstitial.h</key>
 		<data>
-		nD42jYO6LZ52+aykkFKFBVs7YKg=
+		AQpaHFAkkWrhv3erYkgt2n3w8hU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRInterstitialDelegate.h</key>
 		<data>
-		lZWzRKnF+D5E/zL9DehBXOK4Plw=
+		W3yCR4lUpWQ/d37NpvC/Unaw85c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRNativeAdAssets.h</key>
 		<data>
@@ -150,11 +150,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMROfferWall.h</key>
 		<data>
-		umOlG8gAFXKW9JXiGqRfo+v+kOM=
+		1qUdSh/858ChGjDIycRmgWsQSbE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMROfferWallDelegate.h</key>
 		<data>
-		wTmDYEkcLEG1GHdGok35xgLPxPg=
+		jaDN765vkT0lwOoqLf7p0++luxc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRRemoteConfigValue.h</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRRewardedVideo.h</key>
 		<data>
-		aCH2nChC8sEXOM4QPHkg5/riAjE=
+		z9Mt1KhqVgzs9ebppcR5fbj+TQw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRRewardedVideoDelegate.h</key>
 		<data>
-		kPM4B3x7JljLBJ6We19/+TC3wRY=
+		T8qNQ59LAvxbch1a55ZzgXdDMik=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRSDK.h</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		ekJnXVyWFqmEXmHydBlv02+AreM=
+		W2vFafirPHLh9TT67SXy/Kmg9JQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		pX0YYjPHe+PYhwivuTui26PGT5w=
+		esMmuDeIjxRe1QpEDwA02opk/xs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -219,28 +219,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tx29WBF+zm4M2YRq5GeSWJ1c0VVwT+uen7+m6VkQvK0=
+			m5fcS3Hn0GhsET1ZfS0S9j8XtVZQL/p6/kAl3yWlTHU=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E7U8PDc5xM1ETmPtg9FDwRMWuockyQ6Ay91Jj1vFJ7Q=
+			ditaLH6PvGO+GT49J0a1767xH6I1bQMn7zzmd254G3w=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRBanner.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dfzVNOjMDMte1uKrfTG0MBi7SwnesE8BcuDC48CxVy4=
+			k15WMYuIeRw/pqtYCvVsW4zkQ2gH5K+ZzAC1QmFwzGk=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRBannerDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1XbwVPRNfeihNpQ8ONI5X4WDwlTqnHTxofhQd2d6Mww=
+			Bya/4zR4yReYCZd3erTIF6PlGCsjw0akZhfM5G4DtNA=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRBannerView.h</key>
@@ -254,7 +254,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ekKAfw3IxMugNHtcxGHRbAZk5NizLndyxeO5K9l+ftU=
+			z6yqQXeDDdmrTcGQzv2fqbBjPjiobRSAgue5tYQjADQ=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRExternalRevenue.h</key>
@@ -275,14 +275,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NO/G8nPGKD4FobrslQPz5PQ2DJyIJjuiLgaNZ4fiZZI=
+			ncWFZnV4cyEyJiEa+QIvrvl87DLi1WpPnskghX77V1g=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRInterstitialDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iD6FW2y9qGx27YHXk+gDqvRlL0BrlsbYLsx+ygbJDf4=
+			qXnOWKBJjophx0/zo3oAJ9VLQaU0+qbOh4ILCmR2MHs=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRNativeAdAssets.h</key>
@@ -303,14 +303,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k2hGa1YMa7RaemzIyFhX64nX9KcxI1Pw7qnaq0YGo4w=
+			RGLXUxUndePR7ummkeXjhbAIwsRFg46KgtHHRB+HuM4=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMROfferWallDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0NxTpDevh7ZGBqH3jBjC1kr08wzVYUPbJBh/UG6ra1Y=
+			PGazV2Y2RA0zQmphUeWLDiWb88qrNSJzikPas4C/7Pg=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRRemoteConfigValue.h</key>
@@ -324,14 +324,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yxsB/JkeUZy1BCdHYpkYHU1N6BHUGABSuaTASvkHORU=
+			CROHtY/fgqA8o4GcBb7HDlC0TOT35ASZXcCs9Dos09Y=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRRewardedVideoDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9n7O/zI9TcC7Ctpsv9sCPEa3fDI4iIu6YsAzYdCrKXE=
+			RnVN2VpJTdwfHdKKxo35H0ufIw36mj6VfuoI4qUofeg=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRSDK.h</key>
@@ -387,28 +387,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ln4DQESyIxCcV6xg4ogSbwWAhYYgDcWJj95Ud90xoAM=
+			6GOZGOtykSCFR+JzAvlAKvSPpG+KQJh6xzDQ8oTnZDQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E7U8PDc5xM1ETmPtg9FDwRMWuockyQ6Ay91Jj1vFJ7Q=
+			ditaLH6PvGO+GT49J0a1767xH6I1bQMn7zzmd254G3w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRBanner.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dfzVNOjMDMte1uKrfTG0MBi7SwnesE8BcuDC48CxVy4=
+			k15WMYuIeRw/pqtYCvVsW4zkQ2gH5K+ZzAC1QmFwzGk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRBannerDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1XbwVPRNfeihNpQ8ONI5X4WDwlTqnHTxofhQd2d6Mww=
+			Bya/4zR4yReYCZd3erTIF6PlGCsjw0akZhfM5G4DtNA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRBannerView.h</key>
@@ -422,7 +422,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ekKAfw3IxMugNHtcxGHRbAZk5NizLndyxeO5K9l+ftU=
+			z6yqQXeDDdmrTcGQzv2fqbBjPjiobRSAgue5tYQjADQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRExternalRevenue.h</key>
@@ -443,14 +443,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NO/G8nPGKD4FobrslQPz5PQ2DJyIJjuiLgaNZ4fiZZI=
+			ncWFZnV4cyEyJiEa+QIvrvl87DLi1WpPnskghX77V1g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRInterstitialDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iD6FW2y9qGx27YHXk+gDqvRlL0BrlsbYLsx+ygbJDf4=
+			qXnOWKBJjophx0/zo3oAJ9VLQaU0+qbOh4ILCmR2MHs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRNativeAdAssets.h</key>
@@ -471,14 +471,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k2hGa1YMa7RaemzIyFhX64nX9KcxI1Pw7qnaq0YGo4w=
+			RGLXUxUndePR7ummkeXjhbAIwsRFg46KgtHHRB+HuM4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMROfferWallDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0NxTpDevh7ZGBqH3jBjC1kr08wzVYUPbJBh/UG6ra1Y=
+			PGazV2Y2RA0zQmphUeWLDiWb88qrNSJzikPas4C/7Pg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRRemoteConfigValue.h</key>
@@ -492,14 +492,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yxsB/JkeUZy1BCdHYpkYHU1N6BHUGABSuaTASvkHORU=
+			CROHtY/fgqA8o4GcBb7HDlC0TOT35ASZXcCs9Dos09Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRRewardedVideoDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9n7O/zI9TcC7Ctpsv9sCPEa3fDI4iIu6YsAzYdCrKXE=
+			RnVN2VpJTdwfHdKKxo35H0ufIw36mj6VfuoI4qUofeg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRSDK.h</key>
@@ -555,7 +555,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zKGs/AcjwC5MazULRO4rlGBNpKdP1mVymWs5k3mke/8=
+			+SZnuzWIzZPohmkFpOYN//m/Ns9cTSE3d8nH95YaQOg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeRequirements</key>
@@ -569,7 +569,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bcEt7FlJ4CFDwiaVoFlq9MqFk91SYKGghfs6WgJEpDY=
+			hAWte9u43gljxqX4P2f33AYMzuYDzpxbREgX5PhtVX4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeSignature</key>

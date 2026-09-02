@@ -11,10 +11,12 @@
 
 @class UIViewController;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface AMRInterstitial : AMRAd
 
 /// An object conforms to <AMRInterstitialDelegate> protocol.
-@property (weak) id<AMRInterstitialDelegate> delegate;
+@property (weak, nullable) id<AMRInterstitialDelegate> delegate;
 /// Returns YES if the interstitial is requested.
 @property (nonatomic, readonly) BOOL isLoading;
 /// Returns YES if the interstitial is loaded.
@@ -22,11 +24,11 @@
 /// Returns YES if the interstitial is ready to show. (loaded + capping free)
 @property (nonatomic, readonly) BOOL isReadyToShow;
 
-@property (nonatomic, readonly) NSString *ssvAdUniqueId;
+@property (nonatomic, readonly, nullable) NSString *ssvAdUniqueId;
 /// Parameter to move your custom data.
-@property (nonatomic, strong) NSDictionary *customData;
+@property (nonatomic, strong, nullable) NSDictionary *customData;
 /// Server Key for server to server.
-@property (nonatomic, strong) NSString *ssvServerKey;
+@property (nonatomic, strong, nullable) NSString *ssvServerKey;
 
 /**
  * Create an instance of AMRInterstitial to show in your application.
@@ -70,6 +72,8 @@
  * @param viewController Your interstitial's presenting viewcontroller.
  * @param tag Distinction value for ads that used in multiple purposes.
  */
-- (void)showFromViewController:(UIViewController * )viewController withTag:(NSString *)tag;
+- (void)showFromViewController:(UIViewController * )viewController withTag:(nullable NSString *)tag;
 
 @end
+
+NS_ASSUME_NONNULL_END

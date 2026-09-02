@@ -6,7 +6,11 @@
 //  Copyright © 2016 Tolga Seremet. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @class AMRBanner, AMRError;
+
+NS_ASSUME_NONNULL_BEGIN
 
 /**
  * @protocol AMRBannerDelegate
@@ -45,3 +49,5 @@
 - (void)didClickBanner:(AMRBanner *)banner;
 
 @end
+
+NS_ASSUME_NONNULL_END
