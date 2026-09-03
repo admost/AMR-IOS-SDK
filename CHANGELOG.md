@@ -2,6 +2,10 @@
 
 Changelog for AMRSDK.
 
+## [1.6.0-beta.4] - 2026-09-03
+### Fixed
+- App Store validation (ITMS-91064): removed `NSPrivacyTracking`/`NSPrivacyTrackingDomains` from the privacy manifest. Declaring `NSPrivacyTracking=true` with an empty domain list is rejected, and listing the domains would make iOS block them under ATT-denied and break bidding — so the key is omitted entirely (as GoogleMobileAds does), leaving the tracking declaration to the host app. Collected-data-types are unchanged.
+
 ## [1.6.0-beta.3] - 2026-09-02
 ### Changed
 - Cache-on-consume snapshots the publisher's `networkData` (an immutable copy) before the asynchronous slot cache, so a later publisher mutation of the same dictionary cannot race the cache work.
