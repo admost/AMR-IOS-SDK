@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64/AMRSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		gJKFFR5AUmmEWTklwe31kjSMyeI=
+		eX6Xmv5AGuC6IYyuizgGhf8pM4E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/AMRSDK</key>
 		<data>
@@ -194,11 +194,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		gJKFFR5AUmmEWTklwe31kjSMyeI=
+		eX6Xmv5AGuC6IYyuizgGhf8pM4E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		tS5WMgKGrEsDZgzThCKcbkXwAqk=
+		zj009jyegE2d0Rg4MnnXEslNdEc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		esMmuDeIjxRe1QpEDwA02opk/xs=
+		oqvjd8zLT9XI8wMGeMrJ1a5a0sI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -380,7 +380,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y4EuvVPLZIJpMfORKQmmufPyuBxelTBx0JjVq9WR8d8=
+			wQnl1XYJiZHV/Ii/59WHeiBQRdSE7Loyrluxw4LNm2w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/AMRSDK</key>
@@ -548,14 +548,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y4EuvVPLZIJpMfORKQmmufPyuBxelTBx0JjVq9WR8d8=
+			wQnl1XYJiZHV/Ii/59WHeiBQRdSE7Loyrluxw4LNm2w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8zAL/cy/YqQ8C0xECf1o17KO2NaeaZHzrtubi2vBQ8=
+			eTmNB7HizqXn+cqatE85B6Rzt8AoAAN9lEA2867b93A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeRequirements</key>
@@ -569,7 +569,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hAWte9u43gljxqX4P2f33AYMzuYDzpxbREgX5PhtVX4=
+			sLl1rPprUcYr53sE6N8Kx3JOu0CqaC9FLxX7ylVh+a8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeSignature</key>
