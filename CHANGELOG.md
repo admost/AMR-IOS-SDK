@@ -2,6 +2,12 @@
 
 Changelog for AMRSDK.
 
+## [1.6.1] - 2026-09-09
+First stable 1.6.x. Rollup of the 1.6.0 betas plus:
+- Interscroller support: a banner-family format exposed via the zone flag `InterScrollerAdsEnabled` (default off). Publishers load it through the normal `AMRBanner` API; the SDK pins the ad edge-to-edge in the banner view so it fills the feed slot.
+- Privacy manifest: `NSPrivacyTracking`/`NSPrivacyTrackingDomains` removed to pass App Store validation (ITMS-91064) — tracking is left for the host app to declare, as GoogleMobileAds does.
+- S2S bid requests forward GDPR/TCF, CCPA/us_privacy and GPP signals; ATT-triggered IDFA update re-enabled (deduped, off the launch path); public headers annotated for nullability; bidding-queue use-after-free and other 1.6.0-beta fixes.
+
 ## [1.6.0-beta.4] - 2026-09-03
 ### Fixed
 - App Store validation (ITMS-91064): removed `NSPrivacyTracking`/`NSPrivacyTrackingDomains` from the privacy manifest. Declaring `NSPrivacyTracking=true` with an empty domain list is rejected, and listing the domains would make iOS block them under ATT-denied and break bidding — so the key is omitted entirely (as GoogleMobileAds does), leaving the tracking declaration to the host app. Collected-data-types are unchanged.
