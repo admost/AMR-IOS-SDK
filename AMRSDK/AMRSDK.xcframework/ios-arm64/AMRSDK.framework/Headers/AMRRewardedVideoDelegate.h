@@ -6,7 +6,11 @@
 //  Copyright © 2016 Tolga Seremet. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @class AMRRewardedVideo, AMRError;
+
+NS_ASSUME_NONNULL_BEGIN
 
 /**
  * @protocol AMRRewardedVideoDelegate
@@ -86,3 +90,5 @@
 - (void)didRewardedVideoStateChanged:(AMRRewardedVideo *)rewardedVideo state:(AMRAdState)state;
 
 @end
+
+NS_ASSUME_NONNULL_END

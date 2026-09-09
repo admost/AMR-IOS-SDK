@@ -6,7 +6,11 @@
 //  Copyright © 2016 Tolga Seremet. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @class AMROfferWall, AMRError;
+
+NS_ASSUME_NONNULL_BEGIN
 
 /**
  * @protocol AMROfferWallDelegate
@@ -54,4 +58,6 @@
 - (void)didDismissOfferWall:(AMROfferWall *)offerwall;
 
 @end
+
+NS_ASSUME_NONNULL_END
 

@@ -11,10 +11,12 @@
 
 @class UIViewController;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface AMROfferWall : AMRAd
 
 /// An object conforms to <AMRInterstitialDelegate> protocol.
-@property (weak) id<AMROfferWallDelegate> delegate;
+@property (weak, nullable) id<AMROfferWallDelegate> delegate;
 
 /**
  * Create an instance of AMROfferWall to show in your application.
@@ -58,6 +60,8 @@
  * @param viewController Your offerwall's presenting viewcontroller.
  * @param tag Distinction value for ads that used in multiple purposes.
  */
-- (void)showFromViewController:(UIViewController * )viewController withTag:(NSString *)tag;
+- (void)showFromViewController:(UIViewController * )viewController withTag:(nullable NSString *)tag;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -11,28 +11,30 @@
 #import "AMRTypes.h"
 #import "AMRSDK.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface AMRBanner : AMRAd
 
 /// An object conforms to <AMRBannerDelegate> protocol.
-@property (weak) id<AMRBannerDelegate> delegate;
-/// A UIView to add as a subview to show banner.
-@property AMRBannerView *bannerView;
+@property (weak, nullable) id<AMRBannerDelegate> delegate;
+/// A UIView to add as a subview to show banner; nil until a banner is loaded.
+@property (nullable) AMRBannerView *bannerView;
 /// A parent UIViewController required to catch taps.
-@property UIViewController *viewController;
+@property (nullable) UIViewController *viewController;
 /// Width value of banner, default is 320px for 50px, 300px for 250px, 728px for 90px.
 @property (nonatomic) CGFloat bannerWidth;
 /// Custom size for custom native ads.
 @property (nonatomic) CGSize customNativeSize;
 /// Custom native ad xib name.
-@property NSString *customeNativeXibName;
+@property (nullable) NSString *customeNativeXibName;
 /// Custom native ad xib name list for networks.
-@property NSDictionary<NSNumber*, NSString *> *customNativeXibs;
+@property (nullable) NSDictionary<NSNumber*, NSString *> *customNativeXibs;
 /// Adaptive banner info.
 @property (readonly) BOOL isAdaptiveEnabled;
 /// Actual size of bannerView object after banner is loaded.
 @property (nonatomic, assign, readonly) CGSize bannerSize;
-/// Native ad assets.
-@property AMRNativeAdAssets *nativeAdAssets;
+/// Native ad assets; nil for non-native banners.
+@property (nullable) AMRNativeAdAssets *nativeAdAssets;
 
 
 /**
@@ -73,7 +75,7 @@
  * @endcode
  * @param tag Distinction value for ads that used in multiple purposes.
  */
-- (void)loadBannerWithTag:(NSString *)tag;
+- (void)loadBannerWithTag:(nullable NSString *)tag;
 
 
 /**
@@ -98,3 +100,5 @@
 - (void)cacheBanner __attribute__((deprecated));
 
 @end
+
+NS_ASSUME_NONNULL_END
