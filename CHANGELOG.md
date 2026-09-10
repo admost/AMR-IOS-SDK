@@ -2,6 +2,9 @@
 
 Changelog for AMRSDK.
 
+## [1.6.2-beta.1] - 2026-09-10
+- Bug fixes and improvements.
+
 ## [1.6.1] - 2026-09-09
 First stable 1.6.x. Rollup of the 1.6.0 betas plus:
 - Interscroller support: a banner-family format exposed via the zone flag `InterScrollerAdsEnabled` (default off). Publishers load it through the normal `AMRBanner` API; the SDK pins the ad edge-to-edge in the banner view so it fills the feed slot.
