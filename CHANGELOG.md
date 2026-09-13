@@ -2,7 +2,7 @@
 
 Changelog for AMRSDK.
 
-## [1.6.2-beta.1] - 2026-09-10
+## [1.6.2] - 2026-09-13
 - Bug fixes and improvements.
 
 ## [1.6.1] - 2026-09-09

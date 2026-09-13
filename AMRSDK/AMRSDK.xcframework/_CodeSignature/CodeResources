@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AMRSDK.framework/AMRSDK</key>
 		<data>
-		CHk3s9b0d2M1mim138bZ+NFsrQQ=
+		G5AjwFnPcUwHz2jDhSqDqez9XoA=
 		</data>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRAd.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/AMRSDK</key>
 		<data>
-		K6W3Kn1pyMeb2ohTgyWjtMa0Q7U=
+		RbQ+5v+2aCtNOEA7SKicGXXjWSA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRAd.h</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		MT2lp7AzNPA0isJFoAkUck7O5gE=
+		wTzLt00dce3VTxi8O4nx+tjQfkc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -219,7 +219,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PbEEirwITReSwz/Ygy+zeFCZPGfuhQ4pmFJlkSpUFOM=
+			htUiRxb/pD/YQqdjuwCeATYibEu9RSqVbsyBGimUyyc=
 			</data>
 		</dict>
 		<key>ios-arm64/AMRSDK.framework/Headers/AMRAd.h</key>
@@ -387,7 +387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GqsRDqpt6KnhHLne+1Eh5TgK56SWuucw9DV7kY126LE=
+			MhOtfYAZwAicponXAWuLtd1muDE2+3wkknl4s40Ts9o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/Headers/AMRAd.h</key>
@@ -555,7 +555,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rX6xTY62wZBUMfZ/MSM5Zv/ow/VOARcznuPt01qrv6g=
+			ZrPrisGdSUt1AvmfGzhsdoeXLzTK3GMJwE5pjeY8zV8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AMRSDK.framework/_CodeSignature/CodeRequirements</key>
