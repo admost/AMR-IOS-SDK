@@ -4,3 +4,8 @@ framework module AMRSDK {
 
   module * { export * }
 }
+
+module AMRSDK.Swift {
+  header "AMRSDK-Swift.h"
+  requires objc
+}

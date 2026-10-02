@@ -175,35 +175,24 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)spendVirtualCurrency;
 
 /**
- * @deprecated This method is deprecated starting in version 1.3.10
- * @note Please use @code trackPurchase:idientifier:currencyCode:amount @endcode instead.
+ * @deprecated This method is deprecated starting in version 1.6.3
+ * @note Please use @code trackIAP:idientifier:currencyCode:amount:tags @endcode instead.
  */
 + (void)trackPurchase:(NSString *)identifier
          currencyCode:(NSString *)currencyCode
-               amount:(double)amount
-              receipt:(NSData *)receipt __attribute__((deprecated));
-
-/**
- * Track purchase.
- * @param identifier Transaction identifier of SKPaymentTransaction
- * @param currencyCode Currency code of transaction
- * @param amount Amount of transaction
- */
-+ (void)trackPurchase:(NSString *)identifier
-         currencyCode:(NSString *)currencyCode
-               amount:(double)amount;
+               amount:(double)amount __attribute__((deprecated));
 
 /**
  * Track in-app purchase.
  * @param identifier Transaction identifier of SKPaymentTransaction
  * @param currencyCode Currency code of transaction
  * @param amount Amount of transaction
- * @param tags Distinction value for in-app purchase that used in multiple purposes.
+ * @param tags Distinction value for in-app purchase that used in multiple purposes. Optional, may be nil.
  */
 + (void)trackIAP:(NSString *)identifier
     currencyCode:(NSString *)currencyCode
           amount:(double)amount
-            tags:(NSArray *)tags;
+            tags:(nullable NSArray *)tags;
 
 /**
  * Set track purchase response delegate for track purchase upload responses.

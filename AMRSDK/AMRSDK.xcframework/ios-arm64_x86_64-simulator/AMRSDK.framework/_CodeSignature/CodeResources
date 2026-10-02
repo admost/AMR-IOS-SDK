@@ -68,9 +68,13 @@
 		<data>
 		T8qNQ59LAvxbch1a55ZzgXdDMik=
 		</data>
+		<key>Headers/AMRSDK-Swift.h</key>
+		<data>
+		3N04ARhGDkEpjoIkNvZ+Xkzb/es=
+		</data>
 		<key>Headers/AMRSDK.h</key>
 		<data>
-		a2xRYzTy02gRhzeZbDAyQnx2NeM=
+		HXEePdRHwLTdouJ/kOGNt/8X18Y=
 		</data>
 		<key>Headers/AMRTypes.h</key>
 		<data>
@@ -82,15 +86,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pkvwHWKOHKmv2FvgY2QgPg8qqvQ=
+		SWSB7b2Gde+OiSGUR9kOYgS8sl0=
 		</data>
 		<key>LIFECYCLE_EVENTS.md</key>
 		<data>
 		vZWAexrQKj5zkUY+droE/SN41zQ=
 		</data>
+		<key>Modules/AMRSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		15VQMm0dijO/zxzkFWeRzePGm90=
+		</data>
+		<key>Modules/AMRSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		gn67t6kzLwhLUMpsZv/fv3S0w7c=
+		</data>
+		<key>Modules/AMRSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		gcwBsH4BgyFY4sVtNt+/xOKS3vY=
+		</data>
+		<key>Modules/AMRSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		WvwRumWJ+FalamMcrkOrWP1wRHY=
+		</data>
+		<key>Modules/AMRSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		8Bk0WTI5+XIHkgSY9CzwLqs3y88=
+		</data>
+		<key>Modules/AMRSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		gcwBsH4BgyFY4sVtNt+/xOKS3vY=
+		</data>
+		<key>Modules/AMRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		IjWqD8byYXBJAxF/3+zSXOEoyZ8=
+		</data>
+		<key>Modules/AMRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		xiOe6goruH3vuhwj/+KyzDYKOZA=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		+8ZkODY+sqo12LY44fs4SRpacOU=
+		C8HDPnymEBMrOeVUepNagitDcWw=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -211,11 +247,18 @@
 			RnVN2VpJTdwfHdKKxo35H0ufIw36mj6VfuoI4qUofeg=
 			</data>
 		</dict>
+		<key>Headers/AMRSDK-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LGTaO9nsRKI9/GhDJWbFt0fcpNIaNu8qGHF0QHUpD84=
+			</data>
+		</dict>
 		<key>Headers/AMRSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CDfSu7iInzOwwK1c5FCttNju9MLaG9LmUZnk3LJ+4EY=
+			oUhU66eDID1S13sERJI+wyjpVoNaBn7frBTAMcQ/J1w=
 			</data>
 		</dict>
 		<key>Headers/AMRTypes.h</key>
@@ -239,11 +282,67 @@
 			Tat9Fa0fWFDQ4Oh9ppQcQSfz1cXcTDQavzP+y7WxVZI=
 			</data>
 		</dict>
+		<key>Modules/AMRSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7v6Rj6bvbFMbtAi2yXYIVqV9anhom7qsaa4GmtIDY0E=
+			</data>
+		</dict>
+		<key>Modules/AMRSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AZJhbpVajKnKAEO/YqxSYPbpA0EgsV/ESob+AKfnqHU=
+			</data>
+		</dict>
+		<key>Modules/AMRSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
+			</data>
+		</dict>
+		<key>Modules/AMRSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6vr7JmKsdmkQDMfyqp8uMqocowK02A5BaDHpMCvRRxk=
+			</data>
+		</dict>
+		<key>Modules/AMRSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I4OLA6qLN/d0fw3t9g/JfxeqwZ+tJ5LCQRa/ZYPSFoU=
+			</data>
+		</dict>
+		<key>Modules/AMRSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
+			</data>
+		</dict>
+		<key>Modules/AMRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ml4ouwrYKQq85i3xGWe0FM7o7VI6FuCi/6JrRitvsXo=
+			</data>
+		</dict>
+		<key>Modules/AMRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ae+tdqUcdozDKpaxjMKiG+ZsXvfhe7Mi6hwbrRKyGX0=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sGkXXGk9d6TwAjMFdLrR/SPshY1DpsIvLBT445Mfs3U=
+			jqwtCd0o2ZrR9sl72loqabU4Pk3pxrR0PszIsV/Anyw=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

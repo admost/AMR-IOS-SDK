@@ -2,6 +2,19 @@
 
 Changelog for AMRSDK.
 
+## [1.6.3] - 2026-10-02
+### Changed
+- API endpoints moved to the klstack domains (`read-api`, `write-api`, `subscription`, `events-api` on `klstack.io`). Waterfall, S2S bidding, statistics and SSV hosts are unchanged.
+- StoreKit 2 purchases: the SDK now sends the Apple-signed JWS representation for each purchase, so StoreKit 2 transactions can be validated (iOS 15+).
+- `trackIAP:currencyCode:amount:tags:` accepts `nil` tags.
+### Deprecated
+- `trackPurchase:currencyCode:amount:`. Use `trackIAP:currencyCode:amount:tags:` instead.
+### Removed
+- `trackPurchase:currencyCode:amount:receipt:` (deprecated since 1.3.10).
+### Fixed
+- Interscroller placements no longer enter banner auto-refresh.
+- Memory fix in StoreKit 2 transaction lookup.
+
 ## [1.6.2] - 2026-09-13
 - Bug fixes and improvements.
 
