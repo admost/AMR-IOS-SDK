@@ -7,5 +7,4 @@ framework module AMRSDK {
 
 module AMRSDK.Swift {
   header "AMRSDK-Swift.h"
-  requires objc
 }

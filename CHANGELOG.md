@@ -2,6 +2,10 @@
 
 Changelog for AMRSDK.
 
+## [1.6.4] - 2026-10-19
+### Fixed
+- S2S bidding reports: bid requests and timeouts are now reported for every auction, including no-fill auctions, matching the Android SDK. Previously only filled auctions were counted, so the bid request counts of S2S networks (e.g. AdMob, Pangle) in the dashboard were far below the real request volume.
+
 ## [1.6.3] - 2026-10-02
 ### Changed
 - API endpoints moved to the klstack domains (`read-api`, `write-api`, `subscription`, `events-api` on `klstack.io`). Waterfall, S2S bidding, statistics and SSV hosts are unchanged.
