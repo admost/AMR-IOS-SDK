@@ -278,6 +278,24 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)canRequestAds:(BOOL)canRequestAds;
 
 /**
+ * When AutoCMPInitialization is enabled on the Admost dashboard and Google's User Messaging Platform
+ * (UMP 2.1.0+) is linked, AMRSDK shows the UMP consent form itself on launch.
+ * Returns YES when the user must be offered a way to change that choice (e.g. a "Privacy settings"
+ * button in your settings screen). Returns NO when UMP is not linked or the feature is disabled.
+ */
++ (BOOL)isPrivacyOptionsRequired;
+
+/**
+ * Presents UMP's privacy options form so the user can change the consent choice.
+ * AMRSDK re-reads the consent values when the form is dismissed.
+ * @param viewController View controller to present from. The top view controller is used when nil.
+ * @param completion Called on the main thread when the form is dismissed, with an error if it could not be shown.
+ */
++ (void)presentPrivacyOptionsFormFromViewController:(nullable UIViewController *)viewController
+                                         completion:(nullable void (^)(NSError *_Nullable error))completion
+    NS_SWIFT_NAME(presentPrivacyOptionsForm(from:completion:));
+
+/**
  * We specified your responsibilities for obtaining consent from end-users of your apps in our updated Privacy Policy.
  * By updating GDPR or CCPA compatible SDK you agree that you’re responsible for inform the end users and take their consent.
  * Please note that the GDPR consent collection applies only to users located in the European Economic Area, the United Kingdom, and Switzerland.

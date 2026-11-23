@@ -2,6 +2,18 @@
 
 Changelog for AMRSDK.
 
+## [1.6.5] - 2026-11-23
+### Added
+- Automatic consent with Google User Messaging Platform (UMP). When `AutoCMPInitialization` is enabled for the app on the Admost dashboard and the app includes GoogleUserMessagingPlatform 2.1.0+, AMRSDK shows the UMP consent form on launch and initializes ad networks after the user's choice. A returning user with valid consent is not delayed. UMP is not bundled with AMRSDK; it is found at runtime. With the setting off, nothing changes.
+- `isPrivacyOptionsRequired` and `presentPrivacyOptionsFormFromViewController:completion:` (Swift: `presentPrivacyOptionsForm(from:completion:)`) to give users a way to change their consent choice.
+- Test Suite: PRIVACY section and Privacy & Consent screen (UMP status, TCF values, consent per network, UMP debug tools).
+- Setup warnings in development builds when `AutoCMPInitialization` is enabled but UMP cannot be used.
+### Changed
+- TCF consent is re-read after the consent form or the privacy options form is closed.
+### Notes
+- With Swift Package Manager, Other Linker Flags must contain `-ObjC` so the UMP classes are linked.
+- Add Admost and your ad networks as ad partners in your AdMob GDPR message. A network that is not listed there does not receive consent.
+
 ## [1.6.4] - 2026-10-19
 ### Fixed
 - S2S bidding reports: bid requests and timeouts are now reported for every auction, including no-fill auctions, matching the Android SDK. Previously only filled auctions were counted, so the bid request counts of S2S networks (e.g. AdMob, Pangle) in the dashboard were far below the real request volume.

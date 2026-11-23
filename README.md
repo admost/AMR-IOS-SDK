@@ -19,6 +19,7 @@ AMRSDK is the official iOS SDK for Admost Mediation, enabling seamless ad moneti
 - In-app/Subscription tracking
 - Remote config
 - Header bidding
+- Automatic Google UMP consent (optional)
 
 ## Requirements
 
@@ -67,6 +68,26 @@ Then run:
 
 ```sh
 pod install
+```
+
+## Automatic UMP consent (optional)
+
+AMRSDK can show Google's User Messaging Platform (UMP) consent form for you and start the ad networks after the user's choice.
+
+1. Add GoogleUserMessagingPlatform 2.1.0+ to your app (`pod 'GoogleUserMessagingPlatform'`, or the Swift package `https://github.com/googleads/swift-package-manager-google-user-messaging-platform`). With Swift Package Manager, make sure Other Linker Flags contains `-ObjC`.
+2. Add `GADApplicationIdentifier` (your AdMob app id) to `Info.plist`.
+3. In AdMob, create a GDPR message and add Admost and your ad networks as ad partners.
+4. Enable `AutoCMPInitialization` for your app on the Admost dashboard (or ask your Admost account manager).
+5. Offer a way to change the choice, for example in your settings screen:
+
+```swift
+privacyButton.isHidden = !AMRSDK.isPrivacyOptionsRequired()
+
+@objc func privacyButtonTapped() {
+    AMRSDK.presentPrivacyOptionsForm(from: self) { error in
+        if let error { print(error.localizedDescription) }
+    }
+}
 ```
 
 ## License
